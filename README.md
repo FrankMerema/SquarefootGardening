@@ -44,6 +44,9 @@ Seizoen (succesion planting)
 - OptaPlanner constraints  
   https://docs.optaplanner.org/8.4.0.Final/optaplanner-docs/html_single/index.html#_define_the_constraints_and_calculate_the_score
 
+- Sowing (glass, garden), Harvest and Companion Planting  
+  https://when2plant.com/wp-content/uploads/2014/11/Sowing_calendar_1xA2_when_to_plant_vegetables_herbs_companion_planting.pdf
+
 - Companion planting  
   https://www.permaculturenews.org/wp-content/uploads/2010/07/Companion-planting-chart-pdf-download-permaculture.pdf
 
