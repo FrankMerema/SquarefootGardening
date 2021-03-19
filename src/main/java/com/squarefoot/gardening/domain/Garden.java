@@ -16,9 +16,9 @@ public class Garden {
     @ProblemFactCollectionProperty
     private List<Week> weekList;
 
-    @ValueRangeProvider(id = "roomRange")
+    @ValueRangeProvider(id = "squareList")
     @ProblemFactCollectionProperty
-    private List<Square> squareRange;
+    private List<Square> squareList;
 
     // @ValueRangeProvider(id = "plantRange")
     // @ProblemFactCollectionProperty
@@ -36,7 +36,7 @@ public class Garden {
     public Garden(List<Week> timeslotList, List<Square> roomList, List<Plant> plantList,
             List<PlantLocation> plantLocationList) {
         this.weekList = timeslotList;
-        this.squareRange = roomList;
+        this.squareList = roomList;
         // this.plantList = plantList;
         this.plantLocationList = plantLocationList;
     }
@@ -50,7 +50,7 @@ public class Garden {
     }
 
     public List<Square> getRoomList() {
-        return squareRange;
+        return squareList;
     }
 
     // public List<Plant> getPlantList() {

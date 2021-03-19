@@ -3,7 +3,6 @@ package com.squarefoot.gardening.domain;
 import java.util.List;
 
 import org.optaplanner.core.api.domain.entity.PlanningEntity;
-import org.optaplanner.core.api.domain.variable.PlanningVariable;
 
 @PlanningEntity
 public class Plant {
@@ -11,7 +10,7 @@ public class Plant {
     private Long id;
 
     private String name;
-    private List<Week> sowWeeks;
+    private List<Integer> sowWeeks;
     private int daysUntilHarvest;
     private List<Plant> preferredNeighbours;
     private List<Plant> detestedNeighbours;
@@ -43,15 +42,15 @@ public class Plant {
         this.daysUntilHarvest = daysToHarvest;
     }
 
-    public List<Week> getSowWeeks() {
+    public List<Integer> getSowWeeks() {
         return sowWeeks;
     }
 
-    public void setSowWeeks(List<Week> sowWeeks) {
+    public void setSowWeeks(List<Integer> sowWeeks) {
         this.sowWeeks = sowWeeks;
     }
 
-    public Plant(long id, String name, List<Week> sowWeeks, int daysToHarvest, List<Plant> preferredNeighbour,
+    public Plant(long id, String name, List<Integer> sowWeeks, int daysToHarvest, List<Plant> preferredNeighbour,
             List<Plant> detestedNeighbour) {
         this.id = id;
         this.name = name;

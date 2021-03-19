@@ -10,25 +10,25 @@ public class PlantLocation {
 
     private Long id;
 
-    private String plantName;
+    private Plant plant;
 
     @PlanningVariable(valueRangeProviderRefs = "weekRange")
     private List<Week> weeks;
 
-    @PlanningVariable(valueRangeProviderRefs = "roomRange")
+    @PlanningVariable(valueRangeProviderRefs = "squareRange")
     private Square square;
 
     private PlantLocation() {
     }
 
-    public PlantLocation(Long id, String plantName) {
+    public PlantLocation(Long id, Plant plant) {
         this.id = id;
-        this.plantName = plantName;
+        this.plant = plant;
     }
 
     @Override
     public String toString() {
-        return plantName + "(" + id + ")";
+        return plant.toString() + "(" + id + ")";
     }
 
     // ********************************
@@ -39,8 +39,8 @@ public class PlantLocation {
         return id;
     }
 
-    public String getName() {
-        return plantName;
+    public Plant getPlant() {
+        return plant;
     }
 
     public Square getSquare() {
@@ -57,6 +57,14 @@ public class PlantLocation {
 
     public void setWeeks(List<Week> weeks) {
         this.weeks = weeks;
+    }
+
+    public Week getStartWeek() {
+        return this.weeks.get(0);
+    }
+
+    public Week getLastWeek() {
+        return this.weeks.get(this.weeks.size() - 1);
     }
 
 }
