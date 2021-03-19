@@ -4,7 +4,6 @@ import java.util.List;
 
 import org.optaplanner.core.api.domain.entity.PlanningEntity;
 
-@PlanningEntity
 public class Plant {
 
     private Long id;
@@ -71,6 +70,22 @@ public class Plant {
 
     public Long getId() {
         return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getDaysUntilHarvest() {
+        return daysUntilHarvest;
+    }
+
+    public List<Plant> getDetestedNeighbours() {
+        return detestedNeighbours;
+    }
+
+    public List<Plant> getPreferredNeighbours() {
+        return preferredNeighbours;
     }
 
 }

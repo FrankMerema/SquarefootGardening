@@ -23,6 +23,7 @@ public class TimeTableController {
     public Garden solve(@RequestBody Garden problem) {
         UUID problemId = UUID.randomUUID();
         // Submit the problem to start solving
+
         SolverJob<Garden, UUID> solverJob = solverManager.solve(problemId, problem);
         Garden solution;
         try {

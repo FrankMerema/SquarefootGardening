@@ -1,6 +1,5 @@
 package com.squarefoot.gardening.solver;
 
-import com.squarefoot.gardening.domain.Plant;
 import com.squarefoot.gardening.domain.PlantLocation;
 
 import org.optaplanner.core.api.score.buildin.hardsoft.HardSoftScore;

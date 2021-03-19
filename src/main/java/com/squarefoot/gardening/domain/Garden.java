@@ -14,9 +14,9 @@ public class Garden {
 
     @ValueRangeProvider(id = "weekRange")
     @ProblemFactCollectionProperty
-    private List<Week> weekList;
+    private List<Integer> weekList;
 
-    @ValueRangeProvider(id = "squareList")
+    @ValueRangeProvider(id = "squareRange")
     @ProblemFactCollectionProperty
     private List<Square> squareList;
 
@@ -31,12 +31,16 @@ public class Garden {
     private HardSoftScore score;
 
     private Garden() {
+        System.out.println("squareList BLAAT");
     }
 
-    public Garden(List<Week> timeslotList, List<Square> roomList, List<Plant> plantList,
+    public Garden(List<Integer> weekList, List<Square> squareList,
+            // List<Plant> plantList,
             List<PlantLocation> plantLocationList) {
-        this.weekList = timeslotList;
-        this.squareList = roomList;
+        System.out.println("squareList BLAAT2");
+
+        this.weekList = weekList;
+        this.squareList = squareList;
         // this.plantList = plantList;
         this.plantLocationList = plantLocationList;
     }
@@ -45,7 +49,7 @@ public class Garden {
     // Getters and setters
     // ********************************
 
-    public List<Week> getTimeslotList() {
+    public List<Integer> getTimeslotList() {
         return weekList;
     }
 
@@ -54,7 +58,7 @@ public class Garden {
     }
 
     // public List<Plant> getPlantList() {
-    //     return plantList;
+    // return plantList;
     // }
 
     public List<PlantLocation> getPlantLocationList() {

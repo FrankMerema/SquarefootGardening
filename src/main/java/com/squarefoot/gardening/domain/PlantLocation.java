@@ -1,7 +1,5 @@
 package com.squarefoot.gardening.domain;
 
-import java.util.List;
-
 import org.optaplanner.core.api.domain.entity.PlanningEntity;
 import org.optaplanner.core.api.domain.variable.PlanningVariable;
 
@@ -13,7 +11,7 @@ public class PlantLocation {
     private Plant plant;
 
     @PlanningVariable(valueRangeProviderRefs = "weekRange")
-    private List<Week> weeks;
+    private Integer sowWeek;
 
     @PlanningVariable(valueRangeProviderRefs = "squareRange")
     private Square square;
@@ -47,24 +45,24 @@ public class PlantLocation {
         return square;
     }
 
-    public List<Week> getWeeks() {
-        return weeks;
+    public Integer getWeeks() {
+        return sowWeek;
     }
 
     public void setSquare(Square square) {
         this.square = square;
     }
 
-    public void setWeeks(List<Week> weeks) {
-        this.weeks = weeks;
+    public void setWeeks(Integer sowWeek) {
+        this.sowWeek = sowWeek;
     }
 
-    public Week getStartWeek() {
-        return this.weeks.get(0);
+    public Integer getStartWeek() {
+        return this.sowWeek;
     }
 
-    public Week getLastWeek() {
-        return this.weeks.get(this.weeks.size() - 1);
+    public Integer getEndWeek() {
+        return this.sowWeek + this.plant.getDaysUntilHarvest() / 7; // 8/7 = 1
     }
 
 }
