@@ -8,10 +8,31 @@ curl -i -X POST http://localhost:8080/timeTable/solve -H "Content-Type:applicati
 
 # Makkelijke Moestuin Planner
 
+## Getting started
+
+```bash
+./mvnw clean install
+# ./mvnw clean install -DskipTests
+```
+
+Start application
+
+```bash
+./mvnw spring-boot:run
+```
+
+Send request to server
+
+```bash
+curl -i -X POST http://localhost:8080/timeTable/solve -H "Content-Type:application/json" -d '@./request.json'
+```
+
 ## Model
 
 Tuin
+
 - plant
+
   - vak (x,y)
   - timeslot
 
@@ -21,26 +42,31 @@ Tuin
   - detestedNeighbor array<plant>
   - detestedAfter array<plant>
 
-Tuin 
-- 4 bakken (1,2m * 1,2m)
-  - 16 vakken (30cm * 30cm)
+Tuin
+
+- 4 bakken (1,2m \* 1,2m)
+  - 16 vakken (30cm \* 30cm)
 
 ## Constraints
 
 Plaatsing (companion planting)
+
 - HARD -1: plant1.position NOT plant2.position
-- HARD -1: aangrenzend(plant1.position, plant2.position) 
-    NOT IN combine(plant1.detestedNeighbor, plant2.detestedNeighbor)
+- HARD -1: aangrenzend(plant1.position, plant2.position) NOT IN
+  combine(plant1.detestedNeighbor, plant2.detestedNeighbor)
 - SOFT 0: NOT hierboven, en hieronder
-- SOFT 1: aangrenzend(plant1.position, plant2.position) 
-    IS IN combine(plant1.preferredNeighbor, plant2.preferredNeighbor)
+- SOFT 1: aangrenzend(plant1.position, plant2.position) IS IN
+  combine(plant1.preferredNeighbor, plant2.preferredNeighbor)
 
 Seizoen (succesion planting)
+
 - HARD -1: overlap in moment van in de grond zijn
 - HARD -1: plaatsing.timeslot NOT IN plant.weekOptions
-- HARD -1: plant1.weekOptions NOT OVERLAP plant2.weekOptions && plant1.position NOT plant2.position
+- HARD -1: plant1.weekOptions NOT OVERLAP plant2.weekOptions && plant1.position
+  NOT plant2.position
 
 # LINKS
+
 - Spreadsheet met uitkomst  
   https://docs.google.com/spreadsheets/d/1Xm-5y0-jwUvVu-lHs1Mhs2-yAwOpSIywVzD5wG0FkRU/edit?usp=sharing
 
@@ -52,5 +78,3 @@ Seizoen (succesion planting)
 
 - Companion planting  
   https://www.permaculturenews.org/wp-content/uploads/2010/07/Companion-planting-chart-pdf-download-permaculture.pdf
-
-
