@@ -41,6 +41,9 @@ Seizoen (succesion planting)
 - HARD -1: plant1.weekOptions NOT OVERLAP plant2.weekOptions && plant1.position NOT plant2.position
 
 # LINKS
+- Spreadsheet met uitkomst  
+  https://docs.google.com/spreadsheets/d/1Xm-5y0-jwUvVu-lHs1Mhs2-yAwOpSIywVzD5wG0FkRU/edit?usp=sharing
+
 - OptaPlanner constraints  
   https://docs.optaplanner.org/8.4.0.Final/optaplanner-docs/html_single/index.html#_define_the_constraints_and_calculate_the_score
 
