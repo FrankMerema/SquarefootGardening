@@ -1,6 +1,6 @@
 package com.squarefoot.gardening.rest;
 
-import com.squarefoot.gardening.domain.TimeTable;
+import com.squarefoot.gardening.domain.Garden;
 import org.optaplanner.core.api.solver.SolverJob;
 import org.optaplanner.core.api.solver.SolverManager;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,14 +17,14 @@ import java.util.concurrent.ExecutionException;
 public class TimeTableController {
 
     @Autowired
-    private SolverManager<TimeTable, UUID> solverManager;
+    private SolverManager<Garden, UUID> solverManager;
 
     @PostMapping("/solve")
-    public TimeTable solve(@RequestBody TimeTable problem) {
+    public Garden solve(@RequestBody Garden problem) {
         UUID problemId = UUID.randomUUID();
         // Submit the problem to start solving
-        SolverJob<TimeTable, UUID> solverJob = solverManager.solve(problemId, problem);
-        TimeTable solution;
+        SolverJob<Garden, UUID> solverJob = solverManager.solve(problemId, problem);
+        Garden solution;
         try {
             // Wait until the solving ends
             solution = solverJob.getFinalBestSolution();

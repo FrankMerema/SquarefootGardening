@@ -4,7 +4,7 @@ import org.optaplanner.core.api.domain.entity.PlanningEntity;
 import org.optaplanner.core.api.domain.variable.PlanningVariable;
 
 @PlanningEntity
-public class Lesson {
+public class Plant {
 
     private Long id;
 
@@ -18,10 +18,10 @@ public class Lesson {
     @PlanningVariable(valueRangeProviderRefs = "roomRange")
     private Room room;
 
-    private Lesson() {
+    private Plant() {
     }
 
-    public Lesson(Long id, String subject, String teacher, String studentGroup) {
+    public Plant(Long id, String subject, String teacher, String studentGroup) {
         this.id = id;
         this.subject = subject;
         this.teacher = teacher;

@@ -10,7 +10,7 @@ import org.optaplanner.core.api.score.buildin.hardsoft.HardSoftScore;
 import java.util.List;
 
 @PlanningSolution
-public class TimeTable {
+public class Garden {
 
     @ValueRangeProvider(id = "timeslotRange")
     @ProblemFactCollectionProperty
@@ -21,16 +21,16 @@ public class TimeTable {
     private List<Room> roomList;
 
     @PlanningEntityCollectionProperty
-    private List<Lesson> lessonList;
+    private List<Plant> lessonList;
 
     @PlanningScore
     private HardSoftScore score;
 
-    private TimeTable() {
+    private Garden() {
     }
 
-    public TimeTable(List<Timeslot> timeslotList, List<Room> roomList,
-                     List<Lesson> lessonList) {
+    public Garden(List<Timeslot> timeslotList, List<Room> roomList,
+                     List<Plant> lessonList) {
         this.timeslotList = timeslotList;
         this.roomList = roomList;
         this.lessonList = lessonList;
@@ -48,7 +48,7 @@ public class TimeTable {
         return roomList;
     }
 
-    public List<Lesson> getLessonList() {
+    public List<Plant> getLessonList() {
         return lessonList;
     }
 
