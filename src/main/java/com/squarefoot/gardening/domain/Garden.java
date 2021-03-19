@@ -12,16 +12,20 @@ import java.util.List;
 @PlanningSolution
 public class Garden {
 
-    @ValueRangeProvider(id = "timeslotRange")
+    @ValueRangeProvider(id = "weekRange")
     @ProblemFactCollectionProperty
-    private List<Timeslot> timeslotList;
+    private List<Week> weekList;
 
     @ValueRangeProvider(id = "roomRange")
     @ProblemFactCollectionProperty
-    private List<Room> roomList;
+    private List<Square> squareRange;
+
+    // @ValueRangeProvider(id = "plantRange")
+    // @ProblemFactCollectionProperty
+    // private List<Plant> plantList;
 
     @PlanningEntityCollectionProperty
-    private List<Plant> lessonList;
+    private List<PlantLocation> plantLocationList;
 
     @PlanningScore
     private HardSoftScore score;
@@ -29,27 +33,32 @@ public class Garden {
     private Garden() {
     }
 
-    public Garden(List<Timeslot> timeslotList, List<Room> roomList,
-                     List<Plant> lessonList) {
-        this.timeslotList = timeslotList;
-        this.roomList = roomList;
-        this.lessonList = lessonList;
+    public Garden(List<Week> timeslotList, List<Square> roomList, List<Plant> plantList,
+            List<PlantLocation> plantLocationList) {
+        this.weekList = timeslotList;
+        this.squareRange = roomList;
+        // this.plantList = plantList;
+        this.plantLocationList = plantLocationList;
     }
 
     // ********************************
     // Getters and setters
     // ********************************
 
-    public List<Timeslot> getTimeslotList() {
-        return timeslotList;
+    public List<Week> getTimeslotList() {
+        return weekList;
     }
 
-    public List<Room> getRoomList() {
-        return roomList;
+    public List<Square> getRoomList() {
+        return squareRange;
     }
 
-    public List<Plant> getLessonList() {
-        return lessonList;
+    // public List<Plant> getPlantList() {
+    //     return plantList;
+    // }
+
+    public List<PlantLocation> getPlantLocationList() {
+        return plantLocationList;
     }
 
     public HardSoftScore getScore() {

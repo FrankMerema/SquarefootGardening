@@ -1,35 +1,117 @@
-
-
-[{
+[
+  {
     "name": "Endive",
-    "sowWeeks": [13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32],
-    "harvestWeeks": [25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44],
+    "sowWeeks": [ 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32 ],
+    "daysToHarvest": 90,
     "detestedNeighbor": [],
     "preferredNeighbor": ["Fennel"]
-  },{
+  },
+  {
     "name": "Artichoke",
     "sowWeeks": [9, 10, 11, 12, 13, 14, 15, 16],
-    "harvestWeeks": [25, 26, 27, 28, 33, 34, 35, 36],
+    "daysToHarvest": 100,
     "detestedNeighbor": [],
     "preferredNeighbor": []
-  },{
+  },
+  {
     "name": "Cos lettuce",
-    "sowWeeks": [13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32],
-    "harvestWeeks": [21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36],
+    "sowWeeks": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32
+    ],
+    "daysToHarvest": 90,
     "detestedNeighbor": ["Parsley"],
-    "preferredNeighbor": ["Chervil", "Dill", "Fennel", "Carrots", "Turnip", "Garlic"]
+    "preferredNeighbor": [
+      "Chervil",
+      "Dill",
+      "Fennel",
+      "Carrots",
+      "Turnip",
+      "Garlic"
+    ]
   },
   {
     "name": "Iceberg lettucs",
-    "sowWeeks": [13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32],
-    "harvestWeeks": [21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44],
+    "sowWeeks": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32
+    ],
+    "daysToHarvest": 75,
     "detestedNeighbor": ["Parsley"],
-    "preferredNeighbor": ["Chervil", "Dill", "Fennel", "Carrots", "Turnip", "Garlic"]
+    "preferredNeighbor": [
+      "Chervil",
+      "Dill",
+      "Fennel",
+      "Carrots",
+      "Turnip",
+      "Garlic"
+    ]
   },
   {
     "name": "Cabbage lettuce",
-    "sowWeeks": [17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32],
-    "harvestWeeks": [17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44],
+    "sowWeeks": [
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32
+    ],
+    "daysToHarvest": 75,
     "detestedNeighbor": ["Parsley"],
-    "preferredNeighbor": ["Chervil", "Dill", "Fennel", "Carrots", "Turnip", "Garlic"]
-  }]
+    "preferredNeighbor": [
+      "Chervil",
+      "Dill",
+      "Fennel",
+      "Carrots",
+      "Turnip",
+      "Garlic"
+    ]
+  }
+]
