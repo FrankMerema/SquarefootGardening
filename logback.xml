@@ -1,0 +1,3 @@
+<configuration>
+    <logger name="com.squarefoot.gardening" level="debug"/>
+</configuration>
