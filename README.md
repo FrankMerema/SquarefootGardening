@@ -40,3 +40,11 @@ Seizoen (succesion planting)
 - HARD -1: plaatsing.timeslot NOT IN plant.weekOptions
 - HARD -1: plant1.weekOptions NOT OVERLAP plant2.weekOptions && plant1.position NOT plant2.position
 
+# LINKS
+- OptaPlanner constraints  
+  https://docs.optaplanner.org/8.4.0.Final/optaplanner-docs/html_single/index.html#_define_the_constraints_and_calculate_the_score
+
+- Companion planting  
+  https://www.permaculturenews.org/wp-content/uploads/2010/07/Companion-planting-chart-pdf-download-permaculture.pdf
+
+
