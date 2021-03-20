@@ -31,7 +31,7 @@ public class TimeTableConstraintProvider implements ConstraintProvider {
                                 // ... in the same square ...
                                 equal(PlantLocation::getSerializedSquare),
                                 // ... overlapping in the square ...
-                                overlapping(t -> t.getStartWeek(), t -> t.getEndWeek()),
+                                overlapping(t -> t.getSowWeek(), t -> t.getEndWeek()),
                                 // ... and the pair is unique (different id, no reverse pairs)
                                 lessThan(PlantLocation::getId))
                                 // then penalize each pair with a hard weight.

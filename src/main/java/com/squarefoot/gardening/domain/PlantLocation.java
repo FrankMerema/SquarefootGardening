@@ -1,5 +1,8 @@
 package com.squarefoot.gardening.domain;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonProperty.Access;
+
 import org.optaplanner.core.api.domain.entity.PlanningEntity;
 import org.optaplanner.core.api.domain.lookup.PlanningId;
 import org.optaplanner.core.api.domain.variable.PlanningVariable;
@@ -7,6 +10,7 @@ import org.optaplanner.core.api.domain.variable.PlanningVariable;
 @PlanningEntity
 public class PlantLocation {
 
+    @JsonProperty(access = Access.WRITE_ONLY)
     @PlanningId
     private Long id;
 
@@ -43,6 +47,7 @@ public class PlantLocation {
         return plant;
     }
 
+    @JsonProperty(access = Access.WRITE_ONLY)
     public Square getSquare() {
         return square;
     }
@@ -57,10 +62,6 @@ public class PlantLocation {
 
     public void setSowWeek(Integer sowWeek) {
         this.sowWeek = sowWeek;
-    }
-
-    public Integer getStartWeek() {
-        return this.sowWeek;
     }
 
     public Integer getEndWeek() {

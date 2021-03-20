@@ -9,13 +9,18 @@ import org.optaplanner.core.api.score.buildin.hardsoft.HardSoftScore;
 
 import java.util.List;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonProperty.Access;
+
 @PlanningSolution
 public class Garden {
 
+    @JsonProperty(access = Access.WRITE_ONLY)
     @ValueRangeProvider(id = "weekRange")
     @ProblemFactCollectionProperty
     private List<Integer> weekList;
 
+    @JsonProperty(access = Access.WRITE_ONLY)
     @ValueRangeProvider(id = "squareRange")
     @ProblemFactCollectionProperty
     private List<Square> squareList;
