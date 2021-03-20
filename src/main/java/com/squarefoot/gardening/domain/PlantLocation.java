@@ -1,11 +1,13 @@
 package com.squarefoot.gardening.domain;
 
 import org.optaplanner.core.api.domain.entity.PlanningEntity;
+import org.optaplanner.core.api.domain.lookup.PlanningId;
 import org.optaplanner.core.api.domain.variable.PlanningVariable;
 
 @PlanningEntity
 public class PlantLocation {
 
+    @PlanningId
     private Long id;
 
     private Plant plant;
@@ -45,7 +47,7 @@ public class PlantLocation {
         return square;
     }
 
-    public Integer getWeeks() {
+    public Integer getSowWeek() {
         return sowWeek;
     }
 
@@ -53,7 +55,7 @@ public class PlantLocation {
         this.square = square;
     }
 
-    public void setWeeks(Integer sowWeek) {
+    public void setSowWeek(Integer sowWeek) {
         this.sowWeek = sowWeek;
     }
 
