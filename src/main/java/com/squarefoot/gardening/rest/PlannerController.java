@@ -13,8 +13,8 @@ import java.util.UUID;
 import java.util.concurrent.ExecutionException;
 
 @RestController
-@RequestMapping("/timeTable")
-public class TimeTableController {
+@RequestMapping("/planner")
+public class PlannerController {
 
     @Autowired
     private SolverManager<Garden, UUID> solverManager;
