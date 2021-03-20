@@ -24,7 +24,7 @@ Start application
 Send request to server
 
 ```bash
-curl -i -X POST http://localhost:8080/timeTable/solve -H "Content-Type:application/json" -d '@./request.json'
+curl -X POST http://localhost:8080/timeTable/solve -H "Content-Type:application/json" -d '@./request.json' > response.json
 ```
 
 ## Model
