@@ -31,13 +31,11 @@ public class Garden {
     private HardSoftScore score;
 
     private Garden() {
-        System.out.println("squareList BLAAT");
     }
 
     public Garden(List<Integer> weekList, List<Square> squareList,
             // List<Plant> plantList,
-            List<PlantLocation> plantLocationList
-            ) {
+            List<PlantLocation> plantLocationList) {
         System.out.println("squareList BLAAT2");
 
         this.weekList = weekList;
