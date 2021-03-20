@@ -3,7 +3,7 @@ To start the application run ` ./mvnw spring-boot:run`
 Then you can query this:
 
 ```bash
-curl -i -X POST http://localhost:8080/timeTable/solve -H "Content-Type:application/json" -d '{"timeslotList":[{"dayOfWeek":"MONDAY","startTime":"08:30:00","endTime":"09:30:00"},{"dayOfWeek":"MONDAY","startTime":"09:30:00","endTime":"10:30:00"}],"roomList":[{"name":"Room A"},{"name":"Room B"}],"lessonList":[{"id":1,"subject":"Math","teacher":"A. Turing","studentGroup":"9th grade"},{"id":2,"subject":"Chemistry","teacher":"M. Curie","studentGroup":"9th grade"},{"id":3,"subject":"French","teacher":"M. Curie","studentGroup":"10th grade"},{"id":4,"subject":"History","teacher":"I. Jones","studentGroup":"10th grade"}]}'
+curl -i -X POST http://localhost:8080/planner/solve -H "Content-Type:application/json" -d '{"timeslotList":[{"dayOfWeek":"MONDAY","startTime":"08:30:00","endTime":"09:30:00"},{"dayOfWeek":"MONDAY","startTime":"09:30:00","endTime":"10:30:00"}],"roomList":[{"name":"Room A"},{"name":"Room B"}],"lessonList":[{"id":1,"subject":"Math","teacher":"A. Turing","studentGroup":"9th grade"},{"id":2,"subject":"Chemistry","teacher":"M. Curie","studentGroup":"9th grade"},{"id":3,"subject":"French","teacher":"M. Curie","studentGroup":"10th grade"},{"id":4,"subject":"History","teacher":"I. Jones","studentGroup":"10th grade"}]}'
 ```
 
 # Makkelijke Moestuin Planner
@@ -24,7 +24,7 @@ Start application
 Send request to server
 
 ```bash
-curl -X POST http://localhost:8080/timeTable/solve -H "Content-Type:application/json" -d '@./request.json' > response.json
+curl -X POST http://localhost:8080/planner/solve -H "Content-Type:application/json" -d '@./request.json' > response.json
 ```
 
 ## Model
@@ -80,7 +80,3 @@ Seizoen (succesion planting)
   https://www.permaculturenews.org/wp-content/uploads/2010/07/Companion-planting-chart-pdf-download-permaculture.pdf
 
 
-# TODO
-
-- [] Companion Planting
-- 
