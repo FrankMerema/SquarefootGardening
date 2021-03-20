@@ -8,9 +8,9 @@
   ],
   "plantLocationList": [
     {
-      "id": 1,
+      "id":1,
       "plant": {
-        "id": 1,
+        "id":1,
         "name": "tomaat",
         "sowWeeks": [1, 2, 3],
         "daysUntilHarvest": 120,
@@ -19,8 +19,9 @@
       }
     },
     {
-      "id": 1,
+      "id":2,
       "plant": {
+        "id":2,
         "name": "tomaat",
         "daysUntilHarvest": 120,
         "sowWeeks": [1, 2, 3],
@@ -29,8 +30,9 @@
       }
     },
     {
-      "id": 1,
+      "id":3,
       "plant": {
+        "id":3,
         "name": "tomaat",
         "daysUntilHarvest": 120,
         "sowWeeks": [1, 2, 3],

@@ -31,11 +31,11 @@ public class TimeTableConstraintProvider implements ConstraintProvider {
                                                 // ... in the same timeslot ...
                                                 Joiners.equal(PlantLocation::getStartWeek),
                                                 // ... in the same room ...
-                                                Joiners.equal(PlantLocation::getPlant),
+                                                Joiners.equal(PlantLocation::getSerializedSquare),
                                                 // ... and the pair is unique (different id, no reverse pairs)
                                                 Joiners.lessThan(PlantLocation::getId))
                                 // then penalize each pair with a hard weight.
-                                .penalize("Room conflict", HardSoftScore.ONE_HARD);
+                                .penalize("Square conflict", HardSoftScore.ONE_HARD);
         }
 
         // private Constraint teacherConflict(ConstraintFactory constraintFactory) {

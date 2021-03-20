@@ -65,4 +65,8 @@ public class PlantLocation {
         return this.sowWeek + this.plant.getDaysUntilHarvest() / 7; // 8/7 = 1
     }
 
+    public String getSerializedSquare() {
+        return "" + square.getRaisedBedNumber() + "(" + square.getX() + "," + square.getY() + ")";
+    }
+
 }
