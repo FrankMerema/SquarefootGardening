@@ -2,7 +2,6 @@ package com.squarefoot.gardening.domain;
 
 import java.util.List;
 
-import org.optaplanner.core.api.domain.entity.PlanningEntity;
 
 public class Plant {
 
@@ -11,25 +10,25 @@ public class Plant {
     private String name;
     private List<Integer> sowWeeks;
     private int daysUntilHarvest;
-    private List<Plant> preferredNeighbours;
-    private List<Plant> detestedNeighbours;
+    private List<Long> preferredNeighbours;
+    private List<Long> badNeighbours;
 
     private Plant() {
     }
 
-    public List<Plant> getDetestedNeighbour() {
-        return detestedNeighbours;
+    public List<Long> getDetestedNeighbour() {
+        return badNeighbours;
     }
 
-    public void setDetestedNeighbour(List<Plant> detestedNeighbour) {
-        this.detestedNeighbours = detestedNeighbour;
+    public void setDetestedNeighbour(List<Long> detestedNeighbour) {
+        this.badNeighbours = detestedNeighbour;
     }
 
-    public List<Plant> getPreferredNeighbour() {
+    public List<Long> getPreferredNeighbour() {
         return preferredNeighbours;
     }
 
-    public void setPreferredNeighbour(List<Plant> preferredNeighbour) {
+    public void setPreferredNeighbour(List<Long> preferredNeighbour) {
         this.preferredNeighbours = preferredNeighbour;
     }
 
@@ -49,8 +48,8 @@ public class Plant {
         this.sowWeeks = sowWeeks;
     }
 
-    public Plant(long id, String name, List<Integer> sowWeeks, int daysToHarvest, List<Plant> preferredNeighbour,
-            List<Plant> detestedNeighbour) {
+    public Plant(long id, String name, List<Integer> sowWeeks, int daysToHarvest, List<Long> preferredNeighbour,
+            List<Long> detestedNeighbour) {
         this.id = id;
         this.name = name;
         this.setSowWeeks(sowWeeks);
@@ -80,11 +79,11 @@ public class Plant {
         return daysUntilHarvest;
     }
 
-    public List<Plant> getDetestedNeighbours() {
-        return detestedNeighbours;
+    public List<Long> getDetestedNeighbours() {
+        return badNeighbours;
     }
 
-    public List<Plant> getPreferredNeighbours() {
+    public List<Long> getPreferredNeighbours() {
         return preferredNeighbours;
     }
 

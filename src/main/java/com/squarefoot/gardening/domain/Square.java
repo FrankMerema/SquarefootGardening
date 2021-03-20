@@ -13,8 +13,8 @@ public class Square {
 
     public Square(int raisedBedNumber, int x, int y) {
         this.raisedBedNumber = raisedBedNumber;
-        this.x = x;
-        this.y = y;
+        this.x = x; // west richting oost
+        this.y = y; // noord richting zuid
     }
 
     @Override

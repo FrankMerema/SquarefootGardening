@@ -36,7 +36,8 @@ public class Garden {
 
     public Garden(List<Integer> weekList, List<Square> squareList,
             // List<Plant> plantList,
-            List<PlantLocation> plantLocationList) {
+            List<PlantLocation> plantLocationList
+            ) {
         System.out.println("squareList BLAAT2");
 
         this.weekList = weekList;
@@ -49,11 +50,11 @@ public class Garden {
     // Getters and setters
     // ********************************
 
-    public List<Integer> getTimeslotList() {
+    public List<Integer> getWeekList() {
         return weekList;
     }
 
-    public List<Square> getRoomList() {
+    public List<Square> getSquareList() {
         return squareList;
     }
 
