@@ -1,1 +1,23 @@
-{"plantLocationList":[{"plant":{"name":"tomaat"},"sowWeek":1,"endWeek":13,"serializedSquare":"1(0,0)"},{"plant":{"name":"tomaat"},"sowWeek":1,"endWeek":13,"serializedSquare":"1(0,1)"},{"plant":{"name":"tomaat"},"sowWeek":13,"endWeek":25,"serializedSquare":"1(0,0)"}],"score":"0hard/0soft"}
+{
+  "plantLocationList": [
+    {
+      "plant": { "name": "tomaat" },
+      "sowWeek": 1,
+      "endWeek": 13,
+      "serializedSquare": "1(0,0)"
+    },
+    {
+      "plant": { "name": "tomaat" },
+      "sowWeek": 1,
+      "endWeek": 13,
+      "serializedSquare": "1(0,1)"
+    },
+    {
+      "plant": { "name": "tomaat" },
+      "sowWeek": 13,
+      "endWeek": 25,
+      "serializedSquare": "1(0,0)"
+    }
+  ],
+  "score": "0hard/0soft"
+}
