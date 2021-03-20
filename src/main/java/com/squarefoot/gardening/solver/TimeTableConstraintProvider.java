@@ -16,14 +16,10 @@ public class TimeTableConstraintProvider implements ConstraintProvider {
         public Constraint[] defineConstraints(ConstraintFactory constraintFactory) {
                 return new Constraint[] {
                                 // Hard constraints
-                                squareConflict(constraintFactory),
-                                // teacherConflict(constraintFactory),
-                                // studentGroupConflict(constraintFactory),
-                                // Soft constraints are only implemented in the "complete" implementation
-                };
+                                squareWeekConflict(constraintFactory) };
         }
 
-        private Constraint squareConflict(ConstraintFactory factory) {
+        private Constraint squareWeekConflict(ConstraintFactory factory) {
                 // A square can accommodate at most one plantLocation at the same time.
 
                 // Select a PlantLocation pair
@@ -37,23 +33,4 @@ public class TimeTableConstraintProvider implements ConstraintProvider {
                                 // then penalize each pair with a hard weight.
                                 .penalize("Square conflict", HardSoftScore.ONE_HARD);
         }
-
-        // private Constraint teacherConflict(ConstraintFactory constraintFactory) {
-        // // A teacher can teach at most one lesson at the same time.
-        // return constraintFactory.from(Plant.class)
-        // .join(Plant.class, Joiners.equal(Plant::getTimeslot),
-        // Joiners.equal(Plant::getTeacher),
-        // Joiners.lessThan(Plant::getId))
-        // .penalize("Teacher conflict", HardSoftScore.ONE_HARD);
-        // }
-
-        // private Constraint studentGroupConflict(ConstraintFactory constraintFactory)
-        // {
-        // // A student can attend at most one lesson at the same time.
-        // return constraintFactory.from(Plant.class)
-        // .join(Plant.class, Joiners.equal(Plant::getTimeslot),
-        // Joiners.equal(Plant::getStudentGroup), Joiners.lessThan(Plant::getId))
-        // .penalize("Student group conflict", HardSoftScore.ONE_HARD);
-        // }
-
 }

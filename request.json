@@ -1,5 +1,4 @@
 {
-  "weekList": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18],
   "squareList": [
     { "raisedBedNumber": 1, "x": 0, "y": 0 },
     { "raisedBedNumber": 1, "x": 0, "y": 1 }
@@ -8,7 +7,6 @@
     {
       "id": 1,
       "plant": {
-        "id": 1,
         "name": "tomaat",
         "sowWeeks": [1, 2, 3, 4, 5, 6, 7, 8, 9],
         "daysUntilHarvest": 90,
@@ -19,7 +17,6 @@
     {
       "id": 2,
       "plant": {
-        "id": 2,
         "name": "tomaat",
         "daysUntilHarvest": 90,
         "sowWeeks": [1, 2, 3, 4, 5, 6, 7],
@@ -30,7 +27,6 @@
     {
       "id": 3,
       "plant": {
-        "id": 3,
         "name": "tomaat",
         "daysUntilHarvest": 90,
         "sowWeeks": [1, 2, 3, 4, 5, 6, 7, 8, 9],

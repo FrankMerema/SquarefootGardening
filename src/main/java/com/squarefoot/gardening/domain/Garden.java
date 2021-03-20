@@ -1,5 +1,6 @@
 package com.squarefoot.gardening.domain;
 
+import org.eclipse.collections.impl.list.Interval;
 import org.optaplanner.core.api.domain.solution.PlanningEntityCollectionProperty;
 import org.optaplanner.core.api.domain.solution.PlanningScore;
 import org.optaplanner.core.api.domain.solution.PlanningSolution;
@@ -36,14 +37,13 @@ public class Garden {
     private HardSoftScore score;
 
     private Garden() {
+        this.weekList = Interval.oneTo(52).toList();
     }
 
-    public Garden(List<Integer> weekList, List<Square> squareList,
+    public Garden(List<Square> squareList,
             // List<Plant> plantList,
             List<PlantLocation> plantLocationList) {
-        System.out.println("squareList BLAAT2");
-
-        this.weekList = weekList;
+        this.weekList = Interval.oneTo(52).toList();
         this.squareList = squareList;
         // this.plantList = plantList;
         this.plantLocationList = plantLocationList;
