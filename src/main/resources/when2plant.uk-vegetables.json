@@ -1,0 +1,947 @@
+[
+  {
+    "name": "Endive",
+    "glass": [6, 7, 8, 9, 10],
+    "seeding": [4, 5, 6, 7, 8],
+    "harvest": [7, 8, 9, 10, 11],
+    "inchDistance": "12",
+    "daysUntilHarvest": "90",
+    "daysUntilGermination": "15"
+  },
+  {
+    "name": "Artichoke",
+    "glass": [9, 10],
+    "seeding": [5],
+    "harvest": [8, 9],
+    "inchDistance": "30",
+    "daysUntilHarvest": "180",
+    "daysUntilGermination": "20"
+  },
+  {
+    "name": "Cos lettuce",
+    "glass": [6, 7, 8, 9, 10, 11],
+    "seeding": [4, 5, 6, 7, 8],
+    "harvest": [6, 7, 8, 9],
+    "inchDistance": "10",
+    "daysUntilHarvest": "90",
+    "daysUntilGermination": "12"
+  },
+  {
+    "name": "Iceberg lettuce",
+    "glass": [6, 7, 8, 9, 10],
+    "seeding": [4, 5, 6, 7, 8],
+    "harvest": [6, 7, 8, 9, 10, 11],
+    "inchDistance": "16",
+    "daysUntilHarvest": "75",
+    "daysUntilGermination": "12"
+  },
+  {
+    "name": "Cabbage lettuce",
+    "glass": [9, 10],
+    "seeding": [5, 6, 7, 8],
+    "harvest": [5, 6, 7, 8, 9, 10, 11],
+    "inchDistance": "12",
+    "daysUntilHarvest": "65",
+    "daysUntilGermination": "12"
+  },
+  {
+    "name": "Bittercress",
+    "glass": [],
+    "seeding": [3, 4, 5, 6, 7, 8],
+    "harvest": [5, 6, 7, 8, 9, 10, 11],
+    "inchDistance": "12",
+    "daysUntilHarvest": "90",
+    "daysUntilGermination": "14"
+  },
+  {
+    "name": "Mustard",
+    "glass": [5, 6, 7, 8, 9, 10],
+    "seeding": [3, 4, 5, 6, 7, 8, 9, 10],
+    "harvest": [4, 5, 6, 7, 8, 9, 10],
+    "inchDistance": "6",
+    "daysUntilHarvest": "90",
+    "daysUntilGermination": "4"
+  },
+  {
+    "name": "New Zealand spinach",
+    "glass": [8, 9, 10],
+    "seeding": [6, 7],
+    "harvest": [6, 7, 8, 9, 10, 11],
+    "inchDistance": "16",
+    "daysUntilHarvest": "100",
+    "daysUntilGermination": "30"
+  },
+  {
+    "name": "Indian cress",
+    "glass": [],
+    "seeding": [4, 5, 6],
+    "harvest": [7, 8, 9],
+    "inchDistance": "20",
+    "daysUntilHarvest": "85",
+    "daysUntilGermination": "14"
+  },
+  {
+    "name": "Purslane",
+    "glass": [5, 6, 7, 8, 9],
+    "seeding": [7, 8],
+    "harvest": [7, 8, 9],
+    "inchDistance": "0",
+    "daysUntilHarvest": "28",
+    "daysUntilGermination": "3"
+  },
+  {
+    "name": "Rhubarb",
+    "glass": [8, 9],
+    "seeding": [9, 10, 11, 12],
+    "harvest": [4, 5, 6, 7, 8],
+    "inchDistance": "20",
+    "daysUntilHarvest": "360",
+    "daysUntilGermination": "8"
+  },
+  {
+    "name": "Turnip tops",
+    "glass": [11, 12],
+    "seeding": [3, 4, 5],
+    "harvest": [5, 6, 7, 8, 9, 10, 11],
+    "inchDistance": "3",
+    "daysUntilHarvest": "35",
+    "daysUntilGermination": "3"
+  },
+  {
+    "name": "Lettuce",
+    "glass": [5, 6, 7, 8, 9, 10, 11],
+    "seeding": [4, 5, 6, 7, 8],
+    "harvest": [5, 6, 7, 8, 9, 10],
+    "inchDistance": "12",
+    "daysUntilHarvest": "65",
+    "daysUntilGermination": "10"
+  },
+  {
+    "name": "Chard",
+    "glass": [5, 6, 7, 8, 9, 10],
+    "seeding": [3, 4, 5, 6, 7, 8, 9, 10, 11],
+    "harvest": [5, 6, 7, 8, 9, 10, 11],
+    "inchDistance": "8",
+    "daysUntilHarvest": "70",
+    "daysUntilGermination": "10"
+  },
+  {
+    "name": "Neep",
+    "glass": [1, 2, 11, 12],
+    "seeding": [3, 4, 5, 6, 7, 8],
+    "harvest": [3, 4, 5, 6, 7, 8, 9],
+    "inchDistance": "4",
+    "daysUntilHarvest": "100",
+    "daysUntilGermination": "10"
+  },
+  {
+    "name": "Romaine lettuce",
+    "glass": [10, 11],
+    "seeding": [4, 5, 6, 7, 8, 9],
+    "harvest": [4, 5, 6, 7, 8, 9, 10, 11],
+    "inchDistance": "2",
+    "daysUntilHarvest": "45",
+    "daysUntilGermination": "15"
+  },
+  {
+    "name": "Spinach",
+    "glass": [11, 12],
+    "seeding": [1, 2, 3, 4, 5, 6, 7, 8],
+    "harvest": [4, 5, 6, 7, 8, 9, 10, 11],
+    "inchDistance": "2",
+    "daysUntilHarvest": "35",
+    "daysUntilGermination": "10"
+  },
+  {
+    "name": "Asparagus lettuce",
+    "glass": [],
+    "seeding": [3, 4, 5, 6, 7],
+    "harvest": [7, 8, 9, 10],
+    "inchDistance": "8",
+    "daysUntilHarvest": "60",
+    "daysUntilGermination": "10"
+  },
+  {
+    "name": "Garden cress",
+    "glass": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "seeding": [3, 4, 5, 6, 7, 8, 9, 10],
+    "harvest": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "inchDistance": "0,1",
+    "daysUntilHarvest": "12",
+    "daysUntilGermination": "3"
+  },
+  {
+    "name": "Corn salad",
+    "glass": [],
+    "seeding": [3, 4, 5, 6, 7, 8, 9],
+    "harvest": [4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "inchDistance": "2",
+    "daysUntilHarvest": "75",
+    "daysUntilGermination": "15"
+  },
+  {
+    "name": "Watercress",
+    "glass": [],
+    "seeding": [3, 4, 5, 6],
+    "harvest": [4, 5, 6, 7, 8, 9, 10, 11],
+    "inchDistance": "8",
+    "daysUntilHarvest": "50",
+    "daysUntilGermination": "15"
+  },
+  {
+    "name": "Winter purslane",
+    "glass": [3, 4, 5, 6],
+    "seeding": [8, 9, 10],
+    "harvest": [1, 2, 3, 10, 11, 12],
+    "inchDistance": "0,2",
+    "daysUntilHarvest": "30",
+    "daysUntilGermination": "3"
+  },
+  {
+    "name": "2. Tuber and root crops",
+    "glass": [],
+    "seeding": [1, 4, 5, 14, 15, 16],
+    "harvest": [4, 5, 6],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": null,
+    "glass": [1, 2, 3],
+    "seeding": [1, 14, 15, 16],
+    "harvest": [3, 4],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": null,
+    "glass": [],
+    "seeding": [1, 14, 15, 16],
+    "harvest": [2, 3],
+    "inchDistance": null,
+    "daysUntilHarvest": "-harvest",
+    "daysUntilGermination": "-harvest"
+  },
+  {
+    "name": null,
+    "glass": [4, 5, 6],
+    "seeding": [1, 3, 4, 14, 15, 16],
+    "harvest": [4, 5],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": null,
+    "glass": [1],
+    "seeding": [1, 14, 15, 16],
+    "harvest": [4, 5, 6],
+    "inchDistance": "-harvest",
+    "daysUntilHarvest": "-harvest",
+    "daysUntilGermination": "-harvest"
+  },
+  {
+    "name": null,
+    "glass": [],
+    "seeding": [1, 4, 14, 15, 16],
+    "harvest": [4],
+    "inchDistance": "-harvest",
+    "daysUntilHarvest": "-harvest",
+    "daysUntilGermination": "-harvest"
+  },
+  {
+    "name": null,
+    "glass": [],
+    "seeding": [1, 14, 15, 16],
+    "harvest": [3, 4, 5],
+    "inchDistance": "-harvest",
+    "daysUntilHarvest": "-harvest",
+    "daysUntilGermination": "-harvest"
+  },
+  {
+    "name": null,
+    "glass": [1, 2, 3],
+    "seeding": [1, 4, 14, 15, 16],
+    "harvest": [4, 5, 6, 7, 8, 9],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": "-harvest"
+  },
+  {
+    "name": null,
+    "glass": [1, 2, 3, 4, 5, 6],
+    "seeding": [1, 4, 5, 6, 7, 8, 9, 14, 15, 16],
+    "harvest": [4, 5, 6, 7, 8],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": "-harvest"
+  },
+  {
+    "name": null,
+    "glass": [1, 2, 3, 4, 5],
+    "seeding": [1, 14, 15, 16],
+    "harvest": [4, 5],
+    "inchDistance": "-harvest",
+    "daysUntilHarvest": "-harvest",
+    "daysUntilGermination": "-harvest"
+  },
+  {
+    "name": "-harvest",
+    "glass": [8],
+    "seeding": [1, 14, 15, 16],
+    "harvest": [5, 6, 7],
+    "inchDistance": "-harvest",
+    "daysUntilHarvest": "-harvest",
+    "daysUntilGermination": "-harvest"
+  },
+  {
+    "name": null,
+    "glass": [1, 2],
+    "seeding": [1, 4, 5, 14, 15, 16],
+    "harvest": [4, 5, 6],
+    "inchDistance": "-harvest",
+    "daysUntilHarvest": "-harvest",
+    "daysUntilGermination": "-harvest"
+  },
+  {
+    "name": null,
+    "glass": [1, 2, 3, 4],
+    "seeding": [1, 14, 15, 16],
+    "harvest": [4],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": null,
+    "glass": [],
+    "seeding": [1, 2, 14, 15, 16],
+    "harvest": [3],
+    "inchDistance": null,
+    "daysUntilHarvest": "-harvest",
+    "daysUntilGermination": "-harvest"
+  },
+  {
+    "name": null,
+    "glass": [1, 2, 3],
+    "seeding": [1, 14, 15, 16],
+    "harvest": [3],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": null,
+    "glass": [],
+    "seeding": [1, 14, 15, 16],
+    "harvest": [4],
+    "inchDistance": "-harvest",
+    "daysUntilHarvest": "-harvest",
+    "daysUntilGermination": "-harvest"
+  },
+  {
+    "name": "-harvest",
+    "glass": [7, 8],
+    "seeding": [1],
+    "harvest": [1, 14, 15, 16],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": null,
+    "glass": [7],
+    "seeding": [6, 7, 8],
+    "harvest": [1, 3, 4, 5, 6, 7, 14, 15, 16],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": null,
+    "glass": [3, 4, 5, 6],
+    "seeding": [6, 7, 8, 9],
+    "harvest": [1, 14, 15, 16],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "-plant",
+    "glass": [6, 7, 8],
+    "seeding": [6, 7],
+    "harvest": [1, 14, 15, 16],
+    "inchDistance": "-plant",
+    "daysUntilHarvest": "-plant",
+    "daysUntilGermination": "-plant"
+  },
+  {
+    "name": null,
+    "glass": [6, 7],
+    "seeding": [7, 8],
+    "harvest": [1, 2, 3, 4, 14, 15, 16],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": null,
+    "glass": [5, 6],
+    "seeding": [7, 8, 9, 10],
+    "harvest": [1, 2, 3, 4, 14, 15, 16],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": null,
+    "glass": [6],
+    "seeding": [9],
+    "harvest": [1, 14, 15, 16],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": null,
+    "glass": [6],
+    "seeding": [8],
+    "harvest": [1, 14, 15, 16],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": null,
+    "glass": [6, 7],
+    "seeding": [8],
+    "harvest": [1, 14, 15, 16],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": null,
+    "glass": [2],
+    "seeding": [5, 6],
+    "harvest": [1, 14, 15, 16],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": null,
+    "glass": [5, 6, 7],
+    "seeding": [7, 8],
+    "harvest": [1],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Kale",
+    "glass": [7, 8],
+    "seeding": [7],
+    "harvest": [1, 2, 8, 9, 10, 11, 12],
+    "inchDistance": "30",
+    "daysUntilHarvest": "160",
+    "daysUntilGermination": "10"
+  },
+  {
+    "name": "Cauliflower Early harvest",
+    "glass": [11],
+    "seeding": [4],
+    "harvest": [7],
+    "inchDistance": "24",
+    "daysUntilHarvest": "175",
+    "daysUntilGermination": "15"
+  },
+  {
+    "name": "Summer harvest",
+    "glass": [],
+    "seeding": [3, 4, 5],
+    "harvest": [8, 9],
+    "inchDistance": "24",
+    "daysUntilHarvest": "175",
+    "daysUntilGermination": "15"
+  },
+  {
+    "name": "Autumn harvest",
+    "glass": [1],
+    "seeding": [6, 7],
+    "harvest": [10, 11],
+    "inchDistance": "24",
+    "daysUntilHarvest": "175",
+    "daysUntilGermination": "15"
+  },
+  {
+    "name": "Winter harvest",
+    "glass": [],
+    "seeding": [7, 8],
+    "harvest": [4, 5],
+    "inchDistance": "24",
+    "daysUntilHarvest": "175",
+    "daysUntilGermination": "15"
+  },
+  {
+    "name": "Broccoli Summer harvest",
+    "glass": [9, 10, 11],
+    "seeding": [6],
+    "harvest": [8],
+    "inchDistance": "20",
+    "daysUntilHarvest": "100",
+    "daysUntilGermination": "8"
+  },
+  {
+    "name": "Winter harvest",
+    "glass": [9],
+    "seeding": [6],
+    "harvest": [1, 2, 3, 4, 10, 11, 12],
+    "inchDistance": "20",
+    "daysUntilHarvest": "100",
+    "daysUntilGermination": "8"
+  },
+  {
+    "name": "Napa cabbage",
+    "glass": [6, 7, 8, 9, 10],
+    "seeding": [4, 5, 6, 7, 8],
+    "harvest": [6, 7, 8, 9, 10],
+    "inchDistance": "12",
+    "daysUntilHarvest": "90",
+    "daysUntilGermination": "15"
+  },
+  {
+    "name": "Romanesco",
+    "glass": [6, 7, 8, 9],
+    "seeding": [4, 5, 6, 7],
+    "harvest": [7, 8, 9, 10, 11],
+    "inchDistance": "24",
+    "daysUntilHarvest": "110",
+    "daysUntilGermination": "10"
+  },
+  {
+    "name": "Kohlrabi",
+    "glass": [6, 7, 8, 9, 10],
+    "seeding": [4, 5, 6, 7, 8],
+    "harvest": [6, 7, 8, 9, 10, 11],
+    "inchDistance": "10",
+    "daysUntilHarvest": "85",
+    "daysUntilGermination": "8"
+  },
+  {
+    "name": "Chinese cabbage",
+    "glass": [5, 6, 7, 8, 9, 10],
+    "seeding": [4, 5, 6, 7, 8],
+    "harvest": [5, 6, 7, 8, 9, 10],
+    "inchDistance": "10",
+    "daysUntilHarvest": "90",
+    "daysUntilGermination": "10"
+  },
+  {
+    "name": "Red Cabbage Early harvest",
+    "glass": [12],
+    "seeding": [4],
+    "harvest": [5, 6],
+    "inchDistance": "20",
+    "daysUntilHarvest": "160",
+    "daysUntilGermination": "15"
+  },
+  {
+    "name": "Summer harvest",
+    "glass": [10],
+    "seeding": [5],
+    "harvest": [7, 8],
+    "inchDistance": "20",
+    "daysUntilHarvest": "160",
+    "daysUntilGermination": "15"
+  },
+  {
+    "name": "Autumn harvest",
+    "glass": [],
+    "seeding": [4],
+    "harvest": [9, 10, 11],
+    "inchDistance": "20",
+    "daysUntilHarvest": "160",
+    "daysUntilGermination": "15"
+  },
+  {
+    "name": "Cabbage Early harvest",
+    "glass": [12],
+    "seeding": [4],
+    "harvest": [5, 6],
+    "inchDistance": "20",
+    "daysUntilHarvest": "120",
+    "daysUntilGermination": "15"
+  },
+  {
+    "name": "Summer harvest",
+    "glass": [10],
+    "seeding": [5],
+    "harvest": [7, 8],
+    "inchDistance": "20",
+    "daysUntilHarvest": "120",
+    "daysUntilGermination": "15"
+  },
+  {
+    "name": "Autumn harvest",
+    "glass": [],
+    "seeding": [4],
+    "harvest": [9, 10, 11],
+    "inchDistance": "20",
+    "daysUntilHarvest": "120",
+    "daysUntilGermination": "15"
+  },
+  {
+    "name": "Winter harvest",
+    "glass": [],
+    "seeding": [8],
+    "harvest": [4, 5],
+    "inchDistance": "20",
+    "daysUntilHarvest": "120",
+    "daysUntilGermination": "15"
+  },
+  {
+    "name": "Savoy cabbage Early harvest",
+    "glass": [12],
+    "seeding": [4],
+    "harvest": [5, 6],
+    "inchDistance": "24",
+    "daysUntilHarvest": "160",
+    "daysUntilGermination": "15"
+  },
+  {
+    "name": "Summer harvest",
+    "glass": [10],
+    "seeding": [5],
+    "harvest": [7, 8],
+    "inchDistance": "24",
+    "daysUntilHarvest": "160",
+    "daysUntilGermination": "15"
+  },
+  {
+    "name": "Autumn harvest",
+    "glass": [],
+    "seeding": [4],
+    "harvest": [9, 10, 11],
+    "inchDistance": "24",
+    "daysUntilHarvest": "160",
+    "daysUntilGermination": "15"
+  },
+  {
+    "name": "Winter harvest",
+    "glass": [],
+    "seeding": [8],
+    "harvest": [4, 5],
+    "inchDistance": "24",
+    "daysUntilHarvest": "160",
+    "daysUntilGermination": "15"
+  },
+  {
+    "name": "Brussels sprout",
+    "glass": [9, 10, 11],
+    "seeding": [5, 6],
+    "harvest": [9, 10, 11, 12],
+    "inchDistance": "24",
+    "daysUntilHarvest": "250",
+    "daysUntilGermination": "15"
+  },
+  {
+    "name": "5. Legumes",
+    "glass": [],
+    "seeding": [1, 13, 14, 15, 16],
+    "harvest": [3, 4, 5, 6],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": null,
+    "glass": [1, 2, 3],
+    "seeding": [1, 3, 14, 15, 16],
+    "harvest": [3],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": null,
+    "glass": [3],
+    "seeding": [1, 3, 4, 14, 15, 16],
+    "harvest": [4, 5],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": null,
+    "glass": [3, 4],
+    "seeding": [1, 4, 14, 15, 16],
+    "harvest": [4],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": null,
+    "glass": [3, 4],
+    "seeding": [1, 14, 15, 16],
+    "harvest": [5, 6],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": null,
+    "glass": [1, 2],
+    "seeding": [1, 4, 5, 14, 15, 16],
+    "harvest": [5, 6, 7],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": null,
+    "glass": [1, 2],
+    "seeding": [1, 14, 15, 16],
+    "harvest": [3, 4],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": null,
+    "glass": [1],
+    "seeding": [1, 14, 15, 16],
+    "harvest": [5, 6],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": null,
+    "glass": [1, 2, 3],
+    "seeding": [1, 14, 15, 16],
+    "harvest": [3, 4],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": null,
+    "glass": [1, 2, 3],
+    "seeding": [1, 6, 14, 15, 16],
+    "harvest": [6],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": null,
+    "glass": [1, 2, 3],
+    "seeding": [1, 14, 15, 16],
+    "harvest": [5, 6, 7],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": null,
+    "glass": [1, 2],
+    "seeding": [1, 2, 3, 14, 15, 16],
+    "harvest": [3, 4],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": null,
+    "glass": [2, 3, 4],
+    "seeding": [1],
+    "harvest": [1, 3, 4, 14, 15, 16],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": null,
+    "glass": [5, 6],
+    "seeding": [8, 9, 10, 11],
+    "harvest": [1, 14, 15, 16],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": null,
+    "glass": [3, 4],
+    "seeding": [10, 11],
+    "harvest": [1, 3, 4, 14, 15, 16],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": null,
+    "glass": [3, 4],
+    "seeding": [10, 11],
+    "harvest": [1, 14, 15, 16],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": null,
+    "glass": [1, 2, 3],
+    "seeding": [2, 3, 4, 5],
+    "harvest": [1, 5, 14, 15, 16],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": null,
+    "glass": [4, 5],
+    "seeding": [1, 9, 10, 11, 12],
+    "harvest": [1],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Strawberry",
+    "glass": [],
+    "seeding": [8, 9],
+    "harvest": [6, 7, 8, 9, 10],
+    "inchDistance": "14",
+    "daysUntilHarvest": "170",
+    "daysUntilGermination": "20"
+  },
+  {
+    "name": "Eggplant",
+    "glass": [9, 10],
+    "seeding": [6],
+    "harvest": [9, 10],
+    "inchDistance": "31",
+    "daysUntilHarvest": "90",
+    "daysUntilGermination": "40"
+  },
+  {
+    "name": "Gherkin",
+    "glass": [9],
+    "seeding": [5, 6],
+    "harvest": [7, 8, 9],
+    "inchDistance": "6",
+    "daysUntilHarvest": "90",
+    "daysUntilGermination": "10"
+  },
+  {
+    "name": "Blue huckleberry",
+    "glass": [1, 9, 10, 11, 12],
+    "seeding": [12],
+    "harvest": [7, 8, 9],
+    "inchDistance": "30",
+    "daysUntilHarvest": "730",
+    "daysUntilGermination": "45"
+  },
+  {
+    "name": "Wild strawberry",
+    "glass": [1],
+    "seeding": [12],
+    "harvest": [5, 6, 7],
+    "inchDistance": "*",
+    "daysUntilHarvest": "*",
+    "daysUntilGermination": "*"
+  },
+  {
+    "name": "Bramble",
+    "glass": [1],
+    "seeding": [12],
+    "harvest": [7, 8, 9, 10],
+    "inchDistance": "*",
+    "daysUntilHarvest": "*",
+    "daysUntilGermination": "*"
+  },
+  {
+    "name": "Zucchini",
+    "glass": [7, 8, 9],
+    "seeding": [5, 6, 7],
+    "harvest": [9, 10, 11],
+    "inchDistance": "39",
+    "daysUntilHarvest": "95",
+    "daysUntilGermination": "10"
+  },
+  {
+    "name": "Red raspberry",
+    "glass": [],
+    "seeding": [],
+    "harvest": [7, 8, 9, 10],
+    "inchDistance": "*",
+    "daysUntilHarvest": "*",
+    "daysUntilGermination": "*"
+  },
+  {
+    "name": "Cucumber",
+    "glass": [9],
+    "seeding": [5, 6],
+    "harvest": [7, 8, 9],
+    "inchDistance": "6",
+    "daysUntilHarvest": "100",
+    "daysUntilGermination": "10"
+  },
+  {
+    "name": "Maize",
+    "glass": [8, 9],
+    "seeding": [5, 6],
+    "harvest": [6, 7, 8, 9],
+    "inchDistance": "16",
+    "daysUntilHarvest": "130",
+    "daysUntilGermination": "15"
+  },
+  {
+    "name": "Melon",
+    "glass": [7, 8, 9],
+    "seeding": [6],
+    "harvest": [8, 9, 10],
+    "inchDistance": "12",
+    "daysUntilHarvest": "150",
+    "daysUntilGermination": "10"
+  },
+  {
+    "name": "Pumpkin",
+    "glass": [9],
+    "seeding": [5],
+    "harvest": [8, 9],
+    "inchDistance": "39",
+    "daysUntilHarvest": "140",
+    "daysUntilGermination": "20"
+  },
+  {
+    "name": "Black pepper",
+    "glass": [9, 10],
+    "seeding": [6],
+    "harvest": [8, 9, 10],
+    "inchDistance": "18",
+    "daysUntilHarvest": "180",
+    "daysUntilGermination": "15"
+  },
+  {
+    "name": "Sweet corn",
+    "glass": [8, 9],
+    "seeding": [6],
+    "harvest": [8, 9, 10],
+    "inchDistance": "16",
+    "daysUntilHarvest": "130",
+    "daysUntilGermination": "15"
+  },
+  {
+    "name": "Tomatoes",
+    "glass": [10, 11],
+    "seeding": [5],
+    "harvest": [7, 8, 9, 10],
+    "inchDistance": "18",
+    "daysUntilHarvest": "130",
+    "daysUntilGermination": "10"
+  }
+]

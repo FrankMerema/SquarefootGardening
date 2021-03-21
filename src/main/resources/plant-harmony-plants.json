@@ -46,7 +46,15 @@
       "Asparagus"
     ],
     "foes": ["Rue", "Sage"],
-    "description": "<p>Basil, originally from India, is best known as a culinary herb prominently featured in Italian cuisine, and also plays a major role in the Northeast Asian cuisine of Taiwan and the Southeast Asian cuisines of Thailand, Vietnam, Cambodia, and Laos. Depending on the species and cultivar, the leaves may taste somewhat like anise, with a strong, pungent, often sweet smell.</p><p>Basil is a great addition to tomatoes as it improves both growth and flavor. Helps repel flies and mosquitos.</p>"
+    "description": "<p>Basil, originally from India, is best known as a culinary herb prominently featured in Italian cuisine, and also plays a major role in the Northeast Asian cuisine of Taiwan and the Southeast Asian cuisines of Thailand, Vietnam, Cambodia, and Laos. Depending on the species and cultivar, the leaves may taste somewhat like anise, with a strong, pungent, often sweet smell.</p><p>Basil is a great addition to tomatoes as it improves both growth and flavor. Helps repel flies and mosquitos.</p>",
+    "when2plant": {
+      "glass": [2, 3],
+      "transplanting": [5],
+      "harvest": [7, 8, 9, 10],
+      "daysUntilGerminate": 10,
+      "daysUntilHarvest": 110,
+      "distance": 18
+    }
   },
   {
     "name": "Beet",
@@ -555,7 +563,15 @@
       "@Brassica",
       "Rosemary"
     ],
-    "description": ""
+    "description": "",
+    "when2plant": {
+      "glass": [2, 3],
+      "transplanting": [5],
+      "harvest": [7, 8, 9, 10],
+      "daysUntilGerminate": 10,
+      "daysUntilHarvest": 110,
+      "distance": 18
+    }
   },
   {
     "name": "Watercress",

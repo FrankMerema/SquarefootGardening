@@ -95,5 +95,48 @@ Seizoen (succesion planting)
   https://www.permaculturenews.org/wp-content/uploads/2010/07/Companion-planting-chart-pdf-download-permaculture.pdf
 
 - Plant Harmony database
-  https://github.com/micahlmartin/Plant-Harmony/tree/master/data 
+  https://github.com/micahlmartin/Plant-Harmony/tree/master/data
 
+## Data collection 
+
+### When2plant.uk
+
+```js
+let data = []
+Array.from(document.getElementsByTagName('table')[0].getElementsByTagName('tr')).slice(2).map(tr => Array.from(tr.getElementsByTagName('td')).map(td => {
+  if(td.innerText.replace(/\s/g, '').length > 0) {
+    return td.innerText
+  } else if(td.getAttribute('bgcolor')) {
+    switch(td.getAttribute('bgcolor')) {
+      case "#FFFF00": 
+        return "-glass";
+      case "#00FF00": 
+        return "-plant";
+      case "#FF6600": 
+        return "-harvest";
+    }
+  } else {
+    return null;
+  }
+})).filter(tr => !tr.find(td => ("" + td).includes('Jan')))
+.map((row, i, arr) => {
+  if (i / 3 % 1 === 0) {
+    const first = row;
+    const second = arr[i+1];
+    const third = arr[i+2];
+    return {first, second, third};
+  } else {
+    return null;
+  }
+})
+.filter(x => x)
+.forEach(({ first, second, third }) => {
+    const [name, ...rest] = first;
+    let [inchDistance, daysUntilHarvest, daysUntilGermination, ...glass] = rest.reverse();
+    glass = glass.map((value, i) => !value || i+1).filter(x => x !== true);
+    const seeding = second.map((value, i) => !value || i+1).filter(x => x !== true);
+    const harvest = third.map((value, i) => !value || i+1).filter(x => x !== true);
+    data.push({ name, glass, seeding, harvest, inchDistance, daysUntilHarvest, daysUntilGermination});
+});
+data
+```

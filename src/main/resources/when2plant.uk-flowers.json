@@ -1,0 +1,956 @@
+[
+  {
+    "name": "Tagetes",
+    "glass": [5, 6],
+    "seeding": [5, 6],
+    "harvest": [7, 8, 9, 10],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Aster",
+    "glass": [5, 6],
+    "seeding": [5, 6],
+    "harvest": [7, 8, 9],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Begonia",
+    "glass": [6, 7, 8],
+    "seeding": [12],
+    "harvest": [6, 7, 8, 9],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Baby blue-eyes",
+    "glass": [5, 6, 7],
+    "seeding": [4, 5, 6],
+    "harvest": [7, 8, 9, 10],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Chrysanthemums",
+    "glass": [6, 7],
+    "seeding": [4, 5],
+    "harvest": [6, 7, 8],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Berlandiera",
+    "glass": [6, 7, 8, 9],
+    "seeding": [5],
+    "harvest": [5, 6, 7, 8, 9],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Dahlia",
+    "glass": [5, 6],
+    "seeding": [5, 6],
+    "harvest": [7, 8, 9, 10],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Flower-of-an-Hour",
+    "glass": [6, 7],
+    "seeding": [5, 6],
+    "harvest": [7, 8, 9],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Ageratum",
+    "glass": [6, 7, 8],
+    "seeding": [12],
+    "harvest": [7, 8, 9],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Buddha belly plant",
+    "glass": [5, 6],
+    "seeding": [5, 6],
+    "harvest": [8, 9, 10],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Glebionis segetum",
+    "glass": [4, 5, 6, 7],
+    "seeding": [4, 5, 6],
+    "harvest": [7, 8, 9, 10],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Marigold",
+    "glass": [5, 6],
+    "seeding": [5, 6],
+    "harvest": [6, 7, 8, 9],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Hare’s-tail grass",
+    "glass": [6, 7],
+    "seeding": [4, 5],
+    "harvest": [5, 6, 7, 8, 9],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Common vervain",
+    "glass": [5, 6, 7],
+    "seeding": [5, 6],
+    "harvest": [6, 7, 8, 9, 10],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Spider flower",
+    "glass": [6, 7],
+    "seeding": [5, 6],
+    "harvest": [7, 8, 9, 10],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Amaranthus",
+    "glass": [],
+    "seeding": [3, 4],
+    "harvest": [7, 8, 9],
+    "inchDistance": ".",
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Papaver",
+    "glass": [],
+    "seeding": [3, 4, 5],
+    "harvest": [6, 7, 8],
+    "inchDistance": ".",
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Ipomoea",
+    "glass": [5, 6, 7],
+    "seeding": [5, 6],
+    "harvest": [7, 8, 9],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Cup-and-saucer vine",
+    "glass": [6, 7],
+    "seeding": [3, 4, 5, 6],
+    "harvest": [7, 8, 9, 10],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Cornflower",
+    "glass": [5, 6],
+    "seeding": [5, 6],
+    "harvest": [7, 8, 9],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Sensitive plant",
+    "glass": [4, 5, 6, 7],
+    "seeding": [12],
+    "harvest": [6, 7, 8, 9, 10],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Wavyleaf sea-lavender",
+    "glass": [6, 7, 8],
+    "seeding": [12],
+    "harvest": [7, 8, 9],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Royal mallow",
+    "glass": [5, 6, 7],
+    "seeding": [5, 6],
+    "harvest": [7, 8, 9, 10],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Snapdragons",
+    "glass": [6, 7, 8],
+    "seeding": [4, 5],
+    "harvest": [6, 7, 8, 9],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Lobelias",
+    "glass": [5, 6, 7],
+    "seeding": [12],
+    "harvest": [6, 7, 8, 9, 10],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Lupin",
+    "glass": [],
+    "seeding": [3, 4, 5],
+    "harvest": [6, 7, 8],
+    "inchDistance": ".",
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Mealy sage",
+    "glass": [5, 6, 7],
+    "seeding": [5, 6],
+    "harvest": [7, 8, 9, 10],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Stone plants",
+    "glass": [5, 6, 7],
+    "seeding": [4, 5, 6],
+    "harvest": [6, 7, 8, 9, 10],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Poached egg plant",
+    "glass": [],
+    "seeding": [3, 4, 5, 6],
+    "harvest": [7, 8, 9, 10],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Garden nasturtium",
+    "glass": [],
+    "seeding": [4, 5, 6],
+    "harvest": [7, 8, 9],
+    "inchDistance": ".",
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Petunia",
+    "glass": [5, 6, 7],
+    "seeding": [12],
+    "harvest": [6, 7, 8, 9],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Plumed cockscomb",
+    "glass": [6, 7],
+    "seeding": [6, 7],
+    "harvest": [7, 8, 9],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Portulak",
+    "glass": [5, 6, 7],
+    "seeding": [5, 6, 7],
+    "harvest": [7, 8, 9],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Sweet peas",
+    "glass": [],
+    "seeding": [4, 5, 6],
+    "harvest": [7, 8, 9],
+    "inchDistance": ".",
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Larkspur",
+    "glass": [6, 7],
+    "seeding": [5, 6],
+    "harvest": [6, 7, 8],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Obedient plant",
+    "glass": [],
+    "seeding": [4, 5, 6],
+    "harvest": [7, 8, 9],
+    "inchDistance": ".",
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Decorative Kale",
+    "glass": [5, 6, 7],
+    "seeding": [5, 6],
+    "harvest": [8, 9, 10, 11],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Coleus",
+    "glass": [4, 5, 6],
+    "seeding": [12],
+    "harvest": [6, 7, 8, 9, 10],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Pumpkin",
+    "glass": [5, 6],
+    "seeding": [5, 6],
+    "harvest": [8, 9, 10],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Winged Tobacco",
+    "glass": [5, 6],
+    "seeding": [5, 6],
+    "harvest": [7, 8, 9],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "California poppy",
+    "glass": [5, 6],
+    "seeding": [12],
+    "harvest": [6, 7, 8, 9],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Common snowdrop",
+    "glass": [],
+    "seeding": [9, 10, 11, 12],
+    "harvest": [2, 3, 4],
+    "inchDistance": ".",
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Devil-in-a-bush",
+    "glass": [6, 7],
+    "seeding": [5, 6],
+    "harvest": [6, 7, 8, 9],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Cape Marguerite",
+    "glass": [5, 6, 7, 8],
+    "seeding": [12],
+    "harvest": [7, 8, 9],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Fire vine",
+    "glass": [4, 5, 6],
+    "seeding": [5, 6],
+    "harvest": [7, 8, 9],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Dwarf everlast",
+    "glass": [5, 6],
+    "seeding": [5, 6],
+    "harvest": [7, 8, 9],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Black-eyed Susan vine",
+    "glass": [4, 5, 6, 7],
+    "seeding": [],
+    "harvest": [6, 7, 8, 9, 10],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Beggarticks",
+    "glass": [6, 7],
+    "seeding": [5, 6],
+    "harvest": [7, 8, 9],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Turban squash",
+    "glass": [5, 6],
+    "seeding": [5, 6],
+    "harvest": [8, 9, 10],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Garden Heliotrope",
+    "glass": [6, 7, 8],
+    "seeding": [12],
+    "harvest": [6, 7, 8, 9],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Drummond’s phlox",
+    "glass": [5, 6],
+    "seeding": [5, 6],
+    "harvest": [7, 8, 9, 10],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Flax",
+    "glass": [],
+    "seeding": [4, 5, 6],
+    "harvest": [7, 8, 9],
+    "inchDistance": ".",
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Busy Lizzie",
+    "glass": [5, 6, 7],
+    "seeding": [12],
+    "harvest": [6, 7, 8, 9, 10],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Scarlet sage",
+    "glass": [5, 6, 7],
+    "seeding": [12],
+    "harvest": [7, 8, 9],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Honeywort",
+    "glass": [5, 6, 7],
+    "seeding": [5, 6],
+    "harvest": [7, 8, 9],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Bindweed",
+    "glass": [6, 7],
+    "seeding": [5, 6],
+    "harvest": [5, 6, 7, 8, 9],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Castor oil plant",
+    "glass": [5, 6, 7],
+    "seeding": [5, 6],
+    "harvest": [7, 8, 9, 10],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Alyssum",
+    "glass": [6, 7],
+    "seeding": [5, 6],
+    "harvest": [6, 7, 8, 9, 10],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Zinnia",
+    "glass": [5, 6],
+    "seeding": [5, 6],
+    "harvest": [7, 8, 9, 10],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Sunflower",
+    "glass": [6, 7],
+    "seeding": [4, 5, 6],
+    "harvest": [7, 8, 9, 10],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Black-eyed Susan",
+    "glass": [6, 7],
+    "seeding": [4, 5, 6],
+    "harvest": [5, 6, 7, 8],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Rhodanthe",
+    "glass": [],
+    "seeding": [4, 5],
+    "harvest": [7, 8, 9],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Viola",
+    "glass": [5, 6, 7, 8, 9],
+    "seeding": [4, 5, 9, 10],
+    "harvest": [4, 5, 6, 7, 8, 9, 10],
+    "inchDistance": "-glass",
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Sweet William",
+    "glass": [5, 6, 7],
+    "seeding": [5, 6, 7],
+    "harvest": [6, 7, 8],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Iceland Poppy",
+    "glass": [3, 4, 5],
+    "seeding": [7, 8],
+    "harvest": [6, 7, 8],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Honesty",
+    "glass": [],
+    "seeding": [5, 6, 7],
+    "harvest": [5, 6],
+    "inchDistance": ".",
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Dalmatian bellflower",
+    "glass": [6, 7],
+    "seeding": [5, 6, 7],
+    "harvest": [5, 6, 7],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Wallflower",
+    "glass": [6, 7],
+    "seeding": [4, 5, 6],
+    "harvest": [5, 6],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Common hollyhock",
+    "glass": [6, 7],
+    "seeding": [5, 6],
+    "harvest": [6, 7, 8, 9],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Forget-me-not",
+    "glass": [4, 5, 6],
+    "seeding": [5, 6, 7],
+    "harvest": [5, 6, 7],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Foxglove",
+    "glass": [6, 7],
+    "seeding": [5, 6],
+    "harvest": [6, 7, 8, 9],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Columbine",
+    "glass": [6, 7],
+    "seeding": [5, 6],
+    "harvest": [6, 7, 8],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Edelweiss",
+    "glass": [4, 5, 6, 7],
+    "seeding": [12],
+    "harvest": [6, 7, 8, 9],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Aster",
+    "glass": [6, 7],
+    "seeding": [5, 6],
+    "harvest": [6, 7, 8],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Aubrieta",
+    "glass": [6, 7],
+    "seeding": [5, 6],
+    "harvest": [5, 6, 7],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Burning Love",
+    "glass": [],
+    "seeding": [5, 6, 7],
+    "harvest": [6, 7, 8, 9],
+    "inchDistance": ".",
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Russian vine",
+    "glass": [],
+    "seeding": [6, 7],
+    "harvest": [6, 7, 8],
+    "inchDistance": ".",
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Cactus",
+    "glass": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+    "seeding": [12],
+    "harvest": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "inchDistance": "-glass",
+    "daysUntilHarvest": "-glass",
+    "daysUntilGermination": "-glass"
+  },
+  {
+    "name": "Cupid’s dart",
+    "glass": [5, 6, 7],
+    "seeding": [4, 5, 6],
+    "harvest": [6, 7, 8],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Chrysanthemums",
+    "glass": [6, 7],
+    "seeding": [4, 5],
+    "harvest": [6, 7, 8],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Gaillardia",
+    "glass": [5, 6, 7],
+    "seeding": [5, 6],
+    "harvest": [7, 8, 9],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Blue giant hyssop",
+    "glass": [7, 8],
+    "seeding": [5, 6],
+    "harvest": [7, 8, 9, 10],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Pincushion flowers",
+    "glass": [5, 6, 7],
+    "seeding": [5, 6, 7],
+    "harvest": [6, 7, 8, 9],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Yarrow",
+    "glass": [7, 8],
+    "seeding": [5, 6],
+    "harvest": [7, 8, 9],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Sea thrift",
+    "glass": [6, 7],
+    "seeding": [5, 6],
+    "harvest": [7, 8, 9],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Veronica",
+    "glass": [5, 6, 7],
+    "seeding": [5, 6],
+    "harvest": [7, 8, 9],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Torch Lily",
+    "glass": [],
+    "seeding": [6, 7],
+    "harvest": [6, 7, 8, 9],
+    "inchDistance": ".",
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Pelargonium",
+    "glass": [5, 6, 7, 8],
+    "seeding": [12],
+    "harvest": [5, 6, 7, 8, 9, 10],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Gerbera",
+    "glass": [5, 6, 7],
+    "seeding": [12],
+    "harvest": [5, 6, 7, 8],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Globe-thistle",
+    "glass": [5, 6, 7],
+    "seeding": [5, 6, 7],
+    "harvest": [6, 7, 8, 9],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Dense blazing star",
+    "glass": [5, 6, 7],
+    "seeding": [5, 6, 7],
+    "harvest": [6, 7, 8, 9],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Groundcherries",
+    "glass": [],
+    "seeding": [5, 6, 7],
+    "harvest": [8, 9, 10],
+    "inchDistance": ".",
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Lupin",
+    "glass": [],
+    "seeding": [5, 6, 7],
+    "harvest": [6, 7, 8],
+    "inchDistance": ".",
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Oriental poppy",
+    "glass": [],
+    "seeding": [5, 6, 7],
+    "harvest": [6, 7, 8],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Passion flowers",
+    "glass": [5, 6, 7],
+    "seeding": [12],
+    "harvest": [6, 7, 8, 9],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Lindheimer’s Beeblossom",
+    "glass": [6, 7, 8],
+    "seeding": [5, 6, 7],
+    "harvest": [7, 8, 9],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Sweet peas",
+    "glass": [5, 6, 7],
+    "seeding": [4, 5, 6],
+    "harvest": [7, 8, 9],
+    "inchDistance": ".",
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Larkspur",
+    "glass": [6, 7],
+    "seeding": [5, 6],
+    "harvest": [6, 7, 8],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Candytuft",
+    "glass": [],
+    "seeding": [5, 6, 7],
+    "harvest": [4, 5, 6],
+    "inchDistance": ".",
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Welsh poppy",
+    "glass": [4, 5, 6],
+    "seeding": [12],
+    "harvest": [7, 8, 9, 10],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Primula",
+    "glass": [5, 6, 7],
+    "seeding": [5, 6, 7],
+    "harvest": [3, 4, 5],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Maiden pink",
+    "glass": [5, 6, 7],
+    "seeding": [5, 6],
+    "harvest": [7, 8, 9],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Four o’clock flower",
+    "glass": [4, 5, 6],
+    "seeding": [5, 6, 7],
+    "harvest": [7, 8, 9, 10],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Flax",
+    "glass": [],
+    "seeding": [4, 5, 6],
+    "harvest": [7, 8, 9],
+    "inchDistance": ".",
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Soapwort",
+    "glass": [],
+    "seeding": [4, 5, 6],
+    "harvest": [6, 7, 8, 9, 10],
+    "inchDistance": ".",
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Black-eyed Susan",
+    "glass": [6, 7],
+    "seeding": [4, 5, 6],
+    "harvest": [5, 6, 7, 8],
+    "inchDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  }
+]
