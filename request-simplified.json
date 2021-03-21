@@ -1,0 +1,29 @@
+{
+  "raisedBeds": [
+    { "name": "groot1", "x": 4, "y": 12 },
+    { "name": "groot2", "x": 4, "y": 12 },
+    { "name": "groot3", "x": 4, "y": 12 },
+    { "name": "klein", "x": 4, "y": 4 }
+  ],
+  "plants": [
+    { "name": "Tomato", "amount": 4, "time": "early" },
+    { "name": "Basil", "amount": 4, "time": "early" },
+    { "name": "Broccoli", "amount": 4, "time": "early" },
+    { "name": "Broccoli", "amount": 4, "time": "late" },
+    { "name": "Carrot", "amount": 6, "time": "early" },
+    { "name": "Carrot", "amount": 6, "time": "late" },
+    { "name": "Lettuce", "amount": 4, "time": "early" },
+    { "name": "Lettuce", "amount": 4, "time": "late" },
+    { "name": "Radish", "amount": 2, "time": "early" },
+    { "name": "Radish", "amount": 2, "time": "late" },
+    { "name": "Potato", "amount": 12, "time": "early" },
+    { "name": "Potato", "amount": 12, "time": "late" },
+    { "name": "Garlic", "amount": 2, "time": "early" },
+    { "name": "Garlic", "amount": 2, "time": "late" },
+    { "name": "Aspargus", "amount": 4, "time": "early" },
+    { "name": "Strawberry", "amount": 12, "time": "early" },
+    { "name": "Strawberry", "amount": 12, "time": "late" },
+    { "name": "Marigold", "amount": 12, "time": "late" },
+    { "name": "Mint", "amount": 4, "time": "early" }
+  ]
+}
