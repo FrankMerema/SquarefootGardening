@@ -1,0 +1,317 @@
+[
+  {
+    "name": "Anijs",
+    "glass": [8, 9],
+    "seeding": [5, 6],
+    "harvest": [7, 8, 9, 10],
+    "cmDistance": "25",
+    "daysUntilHarvest": "120",
+    "daysUntilGermination": "15"
+  },
+  {
+    "name": "Basilicum",
+    "glass": [7, 8, 9, 10],
+    "seeding": [5, 6, 7],
+    "harvest": [6, 7, 8, 9, 10],
+    "cmDistance": "30",
+    "daysUntilHarvest": "90",
+    "daysUntilGermination": "14"
+  },
+  {
+    "name": "Bieslook",
+    "glass": [8, 9, 10],
+    "seeding": [4, 5, 6, 7, 8],
+    "harvest": [6, 7, 8, 9, 10],
+    "cmDistance": "25",
+    "daysUntilHarvest": "90",
+    "daysUntilGermination": "18"
+  },
+  {
+    "name": "Bladpeterselie",
+    "glass": [6, 7, 8, 9, 10, 11],
+    "seeding": [4, 5, 6, 7],
+    "harvest": [5, 6, 7, 8, 9, 10],
+    "cmDistance": "30",
+    "daysUntilHarvest": "90",
+    "daysUntilGermination": "30"
+  },
+  {
+    "name": "Bloedzuring",
+    "glass": [8, 9, 10],
+    "seeding": [5, 6],
+    "harvest": [7, 8, 9, 10],
+    "cmDistance": "5",
+    "daysUntilHarvest": "60",
+    "daysUntilGermination": "12"
+  },
+  {
+    "name": "Chinese Bieslook",
+    "glass": [9, 10, 11],
+    "seeding": [4, 5, 6],
+    "harvest": [7, 8, 9, 10],
+    "cmDistance": "25",
+    "daysUntilHarvest": "150",
+    "daysUntilGermination": "18"
+  },
+  {
+    "name": "Citroenbasilicum",
+    "glass": [8, 9, 10],
+    "seeding": [5, 6, 7],
+    "harvest": [6, 7, 8, 9],
+    "cmDistance": "25",
+    "daysUntilHarvest": "90",
+    "daysUntilGermination": "14"
+  },
+  {
+    "name": "Citroengras",
+    "glass": [8, 9, 10, 11],
+    "seeding": [4, 5, 6, 7, 8],
+    "harvest": [7, 8, 9, 10],
+    "cmDistance": "25",
+    "daysUntilHarvest": "90",
+    "daysUntilGermination": "21"
+  },
+  {
+    "name": "Citroenmelisse",
+    "glass": [8, 9, 10],
+    "seeding": [7, 8, 9],
+    "harvest": [7, 8, 9],
+    "cmDistance": "30",
+    "daysUntilHarvest": "120",
+    "daysUntilGermination": "21"
+  },
+  {
+    "name": "Daslook",
+    "glass": [9],
+    "seeding": [4, 5, 6],
+    "harvest": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "cmDistance": "10",
+    "daysUntilHarvest": "90",
+    "daysUntilGermination": "365"
+  },
+  {
+    "name": "Dille",
+    "glass": [9],
+    "seeding": [4, 5, 6, 7],
+    "harvest": [7, 8, 9],
+    "cmDistance": "15",
+    "daysUntilHarvest": "60",
+    "daysUntilGermination": "15"
+  },
+  {
+    "name": "Mosterd",
+    "glass": [8, 9],
+    "seeding": [5, 6, 7, 8],
+    "harvest": [7, 8, 9, 10, 11],
+    "cmDistance": "15",
+    "daysUntilHarvest": "90",
+    "daysUntilGermination": "10"
+  },
+  {
+    "name": "Honingplant, Stevia",
+    "glass": [],
+    "seeding": [3, 4, 5, 6, 7, 8, 9, 10],
+    "harvest": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "cmDistance": "20",
+    "daysUntilHarvest": "90",
+    "daysUntilGermination": "25"
+  },
+  {
+    "name": "Kamille",
+    "glass": [9, 10],
+    "seeding": [5, 6, 7],
+    "harvest": [5, 6, 7, 8],
+    "cmDistance": "25",
+    "daysUntilHarvest": "60",
+    "daysUntilGermination": "18"
+  },
+  {
+    "name": "Kervel",
+    "glass": [8, 9, 10],
+    "seeding": [5, 6, 7, 8],
+    "harvest": [6, 7, 8, 9, 10],
+    "cmDistance": "10",
+    "daysUntilHarvest": "90",
+    "daysUntilGermination": "14"
+  },
+  {
+    "name": "Komkommerkruid",
+    "glass": [9],
+    "seeding": [4, 5, 6, 7],
+    "harvest": [7, 8, 9, 10],
+    "cmDistance": "20",
+    "daysUntilHarvest": "60",
+    "daysUntilGermination": "10"
+  },
+  {
+    "name": "Koriander",
+    "glass": [8, 9, 10],
+    "seeding": [5, 6, 7],
+    "harvest": [7, 8, 9, 10],
+    "cmDistance": "25",
+    "daysUntilHarvest": "120",
+    "daysUntilGermination": "16"
+  },
+  {
+    "name": "Kruizemunt",
+    "glass": [9, 10],
+    "seeding": [4, 5, 6, 7, 8],
+    "harvest": [7, 8, 9, 10],
+    "cmDistance": "30",
+    "daysUntilHarvest": "120",
+    "daysUntilGermination": "21"
+  },
+  {
+    "name": "Knoflook",
+    "glass": [],
+    "seeding": [2, 3, 4, 9, 10, 11],
+    "harvest": [6, 7, 8],
+    "cmDistance": "3",
+    "daysUntilHarvest": "120",
+    "daysUntilGermination": "30"
+  },
+  {
+    "name": "Lavendel",
+    "glass": [8, 9, 10, 11],
+    "seeding": [5, 6, 7],
+    "harvest": [6, 7, 8, 9],
+    "cmDistance": "35",
+    "daysUntilHarvest": "120",
+    "daysUntilGermination": "20"
+  },
+  {
+    "name": "Lievevrouwebedstro",
+    "glass": [10],
+    "seeding": [3, 4, 5, 6, 7, 10, 11],
+    "harvest": [5, 6, 7],
+    "cmDistance": "20",
+    "daysUntilHarvest": "180",
+    "daysUntilGermination": "50"
+  },
+  {
+    "name": "Maggikruid",
+    "glass": [8, 9, 10],
+    "seeding": [5, 6, 7],
+    "harvest": [6, 7, 8, 9, 10],
+    "cmDistance": "50",
+    "daysUntilHarvest": "90",
+    "daysUntilGermination": "21"
+  },
+  {
+    "name": "Oregano, Wilde Marjolein",
+    "glass": [8, 9, 10],
+    "seeding": [5, 6],
+    "harvest": [6, 7, 8, 9],
+    "cmDistance": "25",
+    "daysUntilHarvest": "130",
+    "daysUntilGermination": "15"
+  },
+  {
+    "name": "Poleimunt (en)",
+    "glass": [9, 10],
+    "seeding": [5, 6, 7, 8],
+    "harvest": [6, 7, 8, 9, 10],
+    "cmDistance": "35",
+    "daysUntilHarvest": "90",
+    "daysUntilGermination": "20"
+  },
+  {
+    "name": "Dragon",
+    "glass": [9, 10],
+    "seeding": [5, 6],
+    "harvest": [6, 7, 8, 9],
+    "cmDistance": "50",
+    "daysUntilHarvest": "90",
+    "daysUntilGermination": "21"
+  },
+  {
+    "name": "Tuinmelde",
+    "glass": [8, 9],
+    "seeding": [5, 6, 7],
+    "harvest": [7, 8, 9],
+    "cmDistance": "30",
+    "daysUntilHarvest": "60",
+    "daysUntilGermination": "14"
+  },
+  {
+    "name": "Rozemarijn",
+    "glass": [8, 9, 10, 11],
+    "seeding": [5, 6],
+    "harvest": [5, 6, 7, 8, 9],
+    "cmDistance": "40",
+    "daysUntilHarvest": "90",
+    "daysUntilGermination": "30"
+  },
+  {
+    "name": "Salie",
+    "glass": [9, 10, 11],
+    "seeding": [4, 5, 6],
+    "harvest": [6, 7, 8, 9, 10],
+    "cmDistance": "35",
+    "daysUntilHarvest": "120",
+    "daysUntilGermination": "25"
+  },
+  {
+    "name": "Snijselderij, Bladselderij",
+    "glass": [8, 9, 10],
+    "seeding": [4, 5, 6, 7],
+    "harvest": [7, 8, 9, 10],
+    "cmDistance": "30",
+    "daysUntilHarvest": "120",
+    "daysUntilGermination": "20"
+  },
+  {
+    "name": "Tijm",
+    "glass": [8, 9, 10],
+    "seeding": [5, 6, 7],
+    "harvest": [6, 7, 8, 9],
+    "cmDistance": "25",
+    "daysUntilHarvest": "90",
+    "daysUntilGermination": "18"
+  },
+  {
+    "name": "Veldzuring",
+    "glass": [8, 9, 10],
+    "seeding": [5, 6],
+    "harvest": [7, 8, 9, 10],
+    "cmDistance": "3",
+    "daysUntilHarvest": "45",
+    "daysUntilGermination": "10"
+  },
+  {
+    "name": "Waterkers",
+    "glass": [8, 9, 10],
+    "seeding": [5, 6],
+    "harvest": [6, 7, 8, 9, 10],
+    "cmDistance": "10",
+    "daysUntilHarvest": "30",
+    "daysUntilGermination": "16"
+  },
+  {
+    "name": "Wortelpeterselie",
+    "glass": [9, 10, 11],
+    "seeding": [4, 5],
+    "harvest": [9, 10, 11],
+    "cmDistance": "25",
+    "daysUntilHarvest": "210",
+    "daysUntilGermination": "30"
+  },
+  {
+    "name": "Zomer Bonenkruid",
+    "glass": [10, 11],
+    "seeding": [3, 4, 5, 6],
+    "harvest": [6, 7, 8, 9],
+    "cmDistance": "20",
+    "daysUntilHarvest": "60",
+    "daysUntilGermination": "18"
+  },
+  {
+    "name": "Zuring",
+    "glass": [9, 10],
+    "seeding": [4, 5],
+    "harvest": [7, 8, 9, 10],
+    "cmDistance": "30",
+    "daysUntilHarvest": "120",
+    "daysUntilGermination": "16"
+  }
+]

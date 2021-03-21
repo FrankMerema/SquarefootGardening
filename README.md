@@ -91,15 +91,24 @@ Seizoen (succesion planting)
 - Sowing (glass, garden), Harvest and Companion Planting  
   https://when2plant.com/wp-content/uploads/2014/11/Sowing_calendar_1xA2_when_to_plant_vegetables_herbs_companion_planting.pdf
 
+- Zaaien (binnen, buiten), Oogsten en Combinatieteelt  
+  https://zaaikalender.com/
+
 - Companion planting  
   https://www.permaculturenews.org/wp-content/uploads/2010/07/Companion-planting-chart-pdf-download-permaculture.pdf
+
+- Wiki list of companion plants  
+  https://en.wikipedia.org/wiki/List_of_companion_plants
 
 - Plant Harmony database
   https://github.com/micahlmartin/Plant-Harmony/tree/master/data
 
 ## Data collection 
 
-### When2plant.uk
+### Scraping data
+
+- when2plant.uk
+- zaaikalender.com
 
 ```js
 let data = []

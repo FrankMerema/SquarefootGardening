@@ -1,0 +1,650 @@
+[
+  {
+    "name": "Andijvie",
+    "glass": [6, 7, 8, 9, 10],
+    "seeding": [4, 5, 6, 7, 8],
+    "harvest": [7, 8, 9, 10, 11],
+    "cmDistance": "30",
+    "daysUntilHarvest": "90",
+    "daysUntilGermination": "15"
+  },
+  {
+    "name": "Artisjokken",
+    "glass": [9, 10],
+    "seeding": [5],
+    "harvest": [8, 9],
+    "cmDistance": "75",
+    "daysUntilHarvest": "180",
+    "daysUntilGermination": "20"
+  },
+  {
+    "name": "Bindsla",
+    "glass": [6, 7, 8, 9, 10, 11],
+    "seeding": [4, 5, 6, 7, 8],
+    "harvest": [6, 7, 8, 9],
+    "cmDistance": "25",
+    "daysUntilHarvest": "90",
+    "daysUntilGermination": "12"
+  },
+  {
+    "name": "IJsbergsla",
+    "glass": [6, 7, 8, 9, 10],
+    "seeding": [4, 5, 6, 7, 8],
+    "harvest": [6, 7, 8, 9, 10, 11],
+    "cmDistance": "40",
+    "daysUntilHarvest": "75",
+    "daysUntilGermination": "12"
+  },
+  {
+    "name": "Kropsla",
+    "glass": [9, 10],
+    "seeding": [5, 6, 7, 8],
+    "harvest": [5, 6, 7, 8, 9, 10, 11],
+    "cmDistance": "30",
+    "daysUntilHarvest": "65",
+    "daysUntilGermination": "12"
+  },
+  {
+    "name": "Veldkers",
+    "glass": [],
+    "seeding": [3, 4, 5, 6, 7, 8],
+    "harvest": [5, 6, 7, 8, 9, 10, 11],
+    "cmDistance": "30",
+    "daysUntilHarvest": "90",
+    "daysUntilGermination": "14"
+  },
+  {
+    "name": "Mosterd",
+    "glass": [5, 6, 7, 8, 9, 10],
+    "seeding": [3, 4, 5, 6, 7, 8, 9, 10],
+    "harvest": [4, 5, 6, 7, 8, 9, 10],
+    "cmDistance": "15",
+    "daysUntilHarvest": "90",
+    "daysUntilGermination": "4"
+  },
+  {
+    "name": "Nieuw-Zeelandse spinazie",
+    "glass": [8, 9, 10],
+    "seeding": [6, 7],
+    "harvest": [6, 7, 8, 9, 10, 11],
+    "cmDistance": "40",
+    "daysUntilHarvest": "100",
+    "daysUntilGermination": "30"
+  },
+  {
+    "name": "Oost-Indische kers",
+    "glass": [1],
+    "seeding": [4, 5, 6],
+    "harvest": [7, 8, 9],
+    "cmDistance": "50",
+    "daysUntilHarvest": "85",
+    "daysUntilGermination": "14"
+  },
+  {
+    "name": "Postelein",
+    "glass": [5, 6, 7, 8, 9],
+    "seeding": [7, 8],
+    "harvest": [7, 8, 9],
+    "cmDistance": "0,5",
+    "daysUntilHarvest": "28",
+    "daysUntilGermination": "3"
+  },
+  {
+    "name": "Rabarber",
+    "glass": [8, 9],
+    "seeding": [9, 10, 11, 12],
+    "harvest": [4, 5, 6, 7, 8],
+    "cmDistance": "50",
+    "daysUntilHarvest": "360",
+    "daysUntilGermination": "8"
+  },
+  {
+    "name": "Raapstelen",
+    "glass": [11, 12],
+    "seeding": [3, 4, 5],
+    "harvest": [5, 6, 7, 8, 9, 10, 11],
+    "cmDistance": "8",
+    "daysUntilHarvest": "35",
+    "daysUntilGermination": "3"
+  },
+  {
+    "name": "Sla",
+    "glass": [5, 6, 7, 8, 9, 10, 11],
+    "seeding": [4, 5, 6, 7, 8],
+    "harvest": [5, 6, 7, 8, 9, 10],
+    "cmDistance": "30",
+    "daysUntilHarvest": "65",
+    "daysUntilGermination": "10"
+  },
+  {
+    "name": "Snijbiet",
+    "glass": [5, 6, 7, 8, 9, 10],
+    "seeding": [3, 4, 5, 6, 7, 8, 9, 10, 11],
+    "harvest": [5, 6, 7, 8, 9, 10, 11],
+    "cmDistance": "20",
+    "daysUntilHarvest": "70",
+    "daysUntilGermination": "10"
+  },
+  {
+    "name": "Snijmoes",
+    "glass": [1, 2, 11, 12],
+    "seeding": [3, 4, 5, 6, 7, 8],
+    "harvest": [3, 4, 5, 6, 7, 8, 9],
+    "cmDistance": "10",
+    "daysUntilHarvest": "100",
+    "daysUntilGermination": "10"
+  },
+  {
+    "name": "Snijsla",
+    "glass": [10, 11],
+    "seeding": [4, 5, 6, 7, 8, 9],
+    "harvest": [4, 5, 6, 7, 8, 9, 10, 11],
+    "cmDistance": "5",
+    "daysUntilHarvest": "45",
+    "daysUntilGermination": "15"
+  },
+  {
+    "name": "Spinazie",
+    "glass": [11, 12],
+    "seeding": [1, 2, 3, 4, 5, 6, 7, 8],
+    "harvest": [4, 5, 6, 7, 8, 9, 10, 11],
+    "cmDistance": "5",
+    "daysUntilHarvest": "35",
+    "daysUntilGermination": "10"
+  },
+  {
+    "name": "Stengelsla (en)",
+    "glass": [],
+    "seeding": [3, 4, 5, 6, 7],
+    "harvest": [7, 8, 9, 10],
+    "cmDistance": "20",
+    "daysUntilHarvest": "60",
+    "daysUntilGermination": "10"
+  },
+  {
+    "name": "Tuinkers",
+    "glass": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "seeding": [3, 4, 5, 6, 7, 8, 9, 10],
+    "harvest": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "cmDistance": "0,3",
+    "daysUntilHarvest": "12",
+    "daysUntilGermination": "3"
+  },
+  {
+    "name": "Veldsla",
+    "glass": [],
+    "seeding": [3, 4, 5, 6, 7, 8, 9],
+    "harvest": [4, 5, 6, 7, 8, 9, 10, 11, 12],
+    "cmDistance": "5",
+    "daysUntilHarvest": "75",
+    "daysUntilGermination": "15"
+  },
+  {
+    "name": "Waterkers",
+    "glass": [],
+    "seeding": [3, 4, 5, 6],
+    "harvest": [4, 5, 6, 7, 8, 9, 10, 11],
+    "cmDistance": "20",
+    "daysUntilHarvest": "50",
+    "daysUntilGermination": "15"
+  },
+  {
+    "name": "Winterpostelein",
+    "glass": [3, 4, 5, 6],
+    "seeding": [8, 9, 10],
+    "harvest": [1, 2, 3, 10, 11, 12],
+    "cmDistance": "0,5",
+    "daysUntilHarvest": "30",
+    "daysUntilGermination": "3"
+  },
+  {
+    "name": "2. Knol- en wortelgewassen",
+    "glass": [],
+    "seeding": [1, 4, 5, 14, 15, 16],
+    "harvest": [4, 5, 6],
+    "cmDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": null,
+    "glass": [1, 2, 3],
+    "seeding": [1, 14, 15, 16],
+    "harvest": [3, 4],
+    "cmDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": null,
+    "glass": [],
+    "seeding": [1, 14, 15, 16],
+    "harvest": [2, 3],
+    "cmDistance": null,
+    "daysUntilHarvest": "-harvest",
+    "daysUntilGermination": "-harvest"
+  },
+  {
+    "name": null,
+    "glass": [4, 5, 6],
+    "seeding": [1, 3, 4, 14, 15, 16],
+    "harvest": [4, 5],
+    "cmDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": null,
+    "glass": [1],
+    "seeding": [1, 14, 15, 16],
+    "harvest": [4, 5, 6],
+    "cmDistance": "-harvest",
+    "daysUntilHarvest": "-harvest",
+    "daysUntilGermination": "-harvest"
+  },
+  {
+    "name": null,
+    "glass": [],
+    "seeding": [1, 4, 14, 15, 16],
+    "harvest": [4],
+    "cmDistance": "-harvest",
+    "daysUntilHarvest": "-harvest",
+    "daysUntilGermination": "-harvest"
+  },
+  {
+    "name": null,
+    "glass": [],
+    "seeding": [1, 14, 15, 16],
+    "harvest": [3, 4, 5],
+    "cmDistance": "-harvest",
+    "daysUntilHarvest": "-harvest",
+    "daysUntilGermination": "-harvest"
+  },
+  {
+    "name": null,
+    "glass": [1, 2, 3],
+    "seeding": [1, 4, 14, 15, 16],
+    "harvest": [4, 5, 6, 7, 8, 9],
+    "cmDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": "-harvest"
+  },
+  {
+    "name": null,
+    "glass": [1, 2, 3, 4, 5, 6],
+    "seeding": [1, 4, 5, 6, 7, 8, 9, 14, 15, 16],
+    "harvest": [4, 5, 6, 7, 8],
+    "cmDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": "-harvest"
+  },
+  {
+    "name": null,
+    "glass": [1, 2, 3, 4, 5],
+    "seeding": [1, 14, 15, 16],
+    "harvest": [4, 5],
+    "cmDistance": "-harvest",
+    "daysUntilHarvest": "-harvest",
+    "daysUntilGermination": "-harvest"
+  },
+  {
+    "name": "-harvest",
+    "glass": [8],
+    "seeding": [1, 14, 15, 16],
+    "harvest": [5, 6, 7],
+    "cmDistance": "-harvest",
+    "daysUntilHarvest": "-harvest",
+    "daysUntilGermination": "-harvest"
+  },
+  {
+    "name": null,
+    "glass": [1, 2],
+    "seeding": [1, 4, 5, 14, 15, 16],
+    "harvest": [4, 5, 6],
+    "cmDistance": "-harvest",
+    "daysUntilHarvest": "-harvest",
+    "daysUntilGermination": "-harvest"
+  },
+  {
+    "name": null,
+    "glass": [1, 2, 3, 4],
+    "seeding": [1, 14, 15, 16],
+    "harvest": [4],
+    "cmDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": null,
+    "glass": [],
+    "seeding": [1, 2, 14, 15, 16],
+    "harvest": [3],
+    "cmDistance": null,
+    "daysUntilHarvest": "-harvest",
+    "daysUntilGermination": "-harvest"
+  },
+  {
+    "name": null,
+    "glass": [1, 2, 3],
+    "seeding": [1, 14, 15, 16],
+    "harvest": [3],
+    "cmDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": null,
+    "glass": [],
+    "seeding": [1, 14, 15, 16],
+    "harvest": [4],
+    "cmDistance": "-harvest",
+    "daysUntilHarvest": "-harvest",
+    "daysUntilGermination": "-harvest"
+  },
+  {
+    "name": "-harvest",
+    "glass": [7, 8],
+    "seeding": [1],
+    "harvest": [1, 14, 15, 16],
+    "cmDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": null,
+    "glass": [7],
+    "seeding": [6, 7, 8],
+    "harvest": [1, 3, 4, 5, 6, 7, 14, 15, 16],
+    "cmDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": null,
+    "glass": [3, 4, 5, 6],
+    "seeding": [6, 7, 8, 9],
+    "harvest": [1, 14, 15, 16],
+    "cmDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "-plant",
+    "glass": [6, 7, 8],
+    "seeding": [6, 7],
+    "harvest": [1, 14, 15, 16],
+    "cmDistance": "-plant",
+    "daysUntilHarvest": "-plant",
+    "daysUntilGermination": "-plant"
+  },
+  {
+    "name": null,
+    "glass": [6, 7],
+    "seeding": [7, 8],
+    "harvest": [1, 2, 3, 4, 14, 15, 16],
+    "cmDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": null,
+    "glass": [5, 6],
+    "seeding": [7, 8, 9, 10],
+    "harvest": [1, 2, 3, 4, 14, 15, 16],
+    "cmDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": null,
+    "glass": [6],
+    "seeding": [9],
+    "harvest": [1, 14, 15, 16],
+    "cmDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": null,
+    "glass": [6],
+    "seeding": [8],
+    "harvest": [1, 14, 15, 16],
+    "cmDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": null,
+    "glass": [6, 7],
+    "seeding": [8],
+    "harvest": [1, 14, 15, 16],
+    "cmDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": null,
+    "glass": [2],
+    "seeding": [5, 6],
+    "harvest": [1, 14, 15, 16],
+    "cmDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": null,
+    "glass": [5, 6, 7],
+    "seeding": [7, 8],
+    "harvest": [1],
+    "cmDistance": null,
+    "daysUntilHarvest": null,
+    "daysUntilGermination": null
+  },
+  {
+    "name": "Boerenkool",
+    "glass": [7, 8],
+    "seeding": [7],
+    "harvest": [1, 2, 8, 9, 10, 11, 12],
+    "cmDistance": "75",
+    "daysUntilHarvest": "160",
+    "daysUntilGermination": "10"
+  },
+  {
+    "name": "Bloemkool Vroege teelt",
+    "glass": [11],
+    "seeding": [4],
+    "harvest": [7],
+    "cmDistance": "60",
+    "daysUntilHarvest": "175",
+    "daysUntilGermination": "15"
+  },
+  {
+    "name": "Zomerteelt",
+    "glass": [],
+    "seeding": [3, 4, 5],
+    "harvest": [8, 9],
+    "cmDistance": "60",
+    "daysUntilHarvest": "175",
+    "daysUntilGermination": "15"
+  },
+  {
+    "name": "Herfstteelt",
+    "glass": [1],
+    "seeding": [6, 7],
+    "harvest": [10, 11],
+    "cmDistance": "60",
+    "daysUntilHarvest": "175",
+    "daysUntilGermination": "15"
+  },
+  {
+    "name": "Winterteelt",
+    "glass": [],
+    "seeding": [7, 8],
+    "harvest": [4, 5],
+    "cmDistance": "60",
+    "daysUntilHarvest": "175",
+    "daysUntilGermination": "15"
+  },
+  {
+    "name": "Broccoli Zomerteelt",
+    "glass": [9, 10, 11],
+    "seeding": [6],
+    "harvest": [8],
+    "cmDistance": "50",
+    "daysUntilHarvest": "100",
+    "daysUntilGermination": "8"
+  },
+  {
+    "name": "Winterteelt",
+    "glass": [9],
+    "seeding": [6],
+    "harvest": [1, 2, 3, 4, 10, 11, 12],
+    "cmDistance": "50",
+    "daysUntilHarvest": "100",
+    "daysUntilGermination": "8"
+  },
+  {
+    "name": "Chinese kool",
+    "glass": [6, 7, 8, 9, 10],
+    "seeding": [4, 5, 6, 7, 8],
+    "harvest": [6, 7, 8, 9, 10],
+    "cmDistance": "30",
+    "daysUntilHarvest": "90",
+    "daysUntilGermination": "15"
+  },
+  {
+    "name": "Romanesco",
+    "glass": [6, 7, 8, 9],
+    "seeding": [4, 5, 6, 7],
+    "harvest": [7, 8, 9, 10, 11],
+    "cmDistance": "60",
+    "daysUntilHarvest": "110",
+    "daysUntilGermination": "10"
+  },
+  {
+    "name": "Koolrabi",
+    "glass": [6, 7, 8, 9, 10],
+    "seeding": [4, 5, 6, 7, 8],
+    "harvest": [6, 7, 8, 9, 10, 11],
+    "cmDistance": "25",
+    "daysUntilHarvest": "85",
+    "daysUntilGermination": "8"
+  },
+  {
+    "name": "Paksoi",
+    "glass": [5, 6, 7, 8, 9, 10],
+    "seeding": [4, 5, 6, 7, 8],
+    "harvest": [5, 6, 7, 8, 9, 10],
+    "cmDistance": "25",
+    "daysUntilHarvest": "90",
+    "daysUntilGermination": "10"
+  },
+  {
+    "name": "Rodekool Vroege teelt",
+    "glass": [12],
+    "seeding": [4],
+    "harvest": [5, 6],
+    "cmDistance": "50",
+    "daysUntilHarvest": "160",
+    "daysUntilGermination": "15"
+  },
+  {
+    "name": "Zomerteelt",
+    "glass": [10],
+    "seeding": [5],
+    "harvest": [7, 8],
+    "cmDistance": "50",
+    "daysUntilHarvest": "160",
+    "daysUntilGermination": "15"
+  },
+  {
+    "name": "Herfstteelt",
+    "glass": [],
+    "seeding": [4],
+    "harvest": [9, 10, 11],
+    "cmDistance": "50",
+    "daysUntilHarvest": "160",
+    "daysUntilGermination": "15"
+  },
+  {
+    "name": "Spitskool Vroege teelt",
+    "glass": [12],
+    "seeding": [4],
+    "harvest": [5, 6],
+    "cmDistance": "50",
+    "daysUntilHarvest": "120",
+    "daysUntilGermination": "15"
+  },
+  {
+    "name": "Zomerteelt",
+    "glass": [10],
+    "seeding": [5],
+    "harvest": [7, 8],
+    "cmDistance": "50",
+    "daysUntilHarvest": "120",
+    "daysUntilGermination": "15"
+  },
+  {
+    "name": "Herfstteelt",
+    "glass": [],
+    "seeding": [4],
+    "harvest": [9, 10, 11],
+    "cmDistance": "50",
+    "daysUntilHarvest": "120",
+    "daysUntilGermination": "15"
+  },
+  {
+    "name": "Winterteelt",
+    "glass": [],
+    "seeding": [8],
+    "harvest": [4, 5],
+    "cmDistance": "50",
+    "daysUntilHarvest": "120",
+    "daysUntilGermination": "15"
+  },
+  {
+    "name": "Savooiekool Vroege teelt",
+    "glass": [12],
+    "seeding": [4],
+    "harvest": [5, 6],
+    "cmDistance": "60",
+    "daysUntilHarvest": "160",
+    "daysUntilGermination": "15"
+  },
+  {
+    "name": "Zomerteelt",
+    "glass": [10],
+    "seeding": [5],
+    "harvest": [7, 8],
+    "cmDistance": "60",
+    "daysUntilHarvest": "160",
+    "daysUntilGermination": "15"
+  },
+  {
+    "name": "Herfstteelt",
+    "glass": [],
+    "seeding": [4],
+    "harvest": [9, 10, 11],
+    "cmDistance": "60",
+    "daysUntilHarvest": "160",
+    "daysUntilGermination": "15"
+  },
+  {
+    "name": "Winterteelt",
+    "glass": [],
+    "seeding": [8],
+    "harvest": [4, 5],
+    "cmDistance": "60",
+    "daysUntilHarvest": "160",
+    "daysUntilGermination": "15"
+  },
+  {
+    "name": "Spruitjes",
+    "glass": [9, 10, 11],
+    "seeding": [5, 6],
+    "harvest": [9, 10, 11, 12],
+    "cmDistance": "60",
+    "daysUntilHarvest": "250",
+    "daysUntilGermination": "15"
+  }
+]
