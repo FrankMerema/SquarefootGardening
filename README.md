@@ -8,6 +8,21 @@ curl -i -X POST http://localhost:8080/planner/solve -H "Content-Type:application
 
 # Makkelijke Moestuin Planner
 
+## User requirements
+
+Request Requirement:
+
+- select **plants**
+- preferred **amount** of plants
+- preferred **harvest** time: early, middle, late
+
+Result Requirements:
+
+- optimized **companion** planting
+- optimized **time** of planting/harvest
+- optimized **succession** planting
+
+
 ## Getting started
 
 ```bash
