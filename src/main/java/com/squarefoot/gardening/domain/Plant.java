@@ -16,13 +16,46 @@ public class Plant {
     private Plant() {
     }
 
-    public Plant(Long id, String name, List<Integer> sowWeeks, int daysUntilHarvest, List<Long> preferredNeighbours, List<Long> badNeighbours) {
+    public List<Long> getDetestedNeighbour() {
+        return badNeighbours;
+    }
+
+    public void setDetestedNeighbour(List<Long> detestedNeighbour) {
+        this.badNeighbours = detestedNeighbour;
+    }
+
+    public List<Long> getPreferredNeighbour() {
+        return preferredNeighbours;
+    }
+
+    public void setPreferredNeighbour(List<Long> preferredNeighbour) {
+        this.preferredNeighbours = preferredNeighbour;
+    }
+
+    public int getDaysToHarvest() {
+        return daysUntilHarvest;
+    }
+
+    public void setDaysToHarvest(int daysToHarvest) {
+        this.daysUntilHarvest = daysToHarvest;
+    }
+
+    public List<Integer> getSowWeeks() {
+        return sowWeeks;
+    }
+
+    public void setSowWeeks(List<Integer> sowWeeks) {
+        this.sowWeeks = sowWeeks;
+    }
+
+    public Plant(long id, String name, List<Integer> sowWeeks, int daysToHarvest, List<Long> preferredNeighbour,
+            List<Long> detestedNeighbour) {
         this.id = id;
         this.name = name;
-        this.sowWeeks = sowWeeks;
-        this.daysUntilHarvest = daysUntilHarvest;
-        this.preferredNeighbours = preferredNeighbours;
-        this.badNeighbours = badNeighbours;
+        this.setSowWeeks(sowWeeks);
+        this.setDaysToHarvest(daysToHarvest);
+        this.setPreferredNeighbour(preferredNeighbour);
+        this.setDetestedNeighbour(detestedNeighbour);
     }
 
     @Override
@@ -34,7 +67,6 @@ public class Plant {
     // Getters and setters
     // ********************************
 
-
     public Long getId() {
         return id;
     }
@@ -43,19 +75,16 @@ public class Plant {
         return name;
     }
 
-    public List<Integer> getSowWeeks() {
-        return sowWeeks;
-    }
-
     public int getDaysUntilHarvest() {
         return daysUntilHarvest;
+    }
+
+    public List<Long> getDetestedNeighbours() {
+        return badNeighbours;
     }
 
     public List<Long> getPreferredNeighbours() {
         return preferredNeighbours;
     }
 
-    public List<Long> getBadNeighbours() {
-        return badNeighbours;
-    }
 }

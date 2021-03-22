@@ -20,6 +20,10 @@ public class Garden {
     @ProblemFactCollectionProperty
     private List<Square> squareList;
 
+    // @ValueRangeProvider(id = "plantRange")
+    // @ProblemFactCollectionProperty
+    // private List<Plant> plantList;
+
     @PlanningEntityCollectionProperty
     private List<PlantLocation> plantLocationList;
 
@@ -30,9 +34,13 @@ public class Garden {
     }
 
     public Garden(List<Integer> weekList, List<Square> squareList,
-                  List<PlantLocation> plantLocationList) {
+            // List<Plant> plantList,
+            List<PlantLocation> plantLocationList) {
+        System.out.println("squareList BLAAT2");
+
         this.weekList = weekList;
         this.squareList = squareList;
+        // this.plantList = plantList;
         this.plantLocationList = plantLocationList;
     }
 
@@ -47,6 +55,10 @@ public class Garden {
     public List<Square> getSquareList() {
         return squareList;
     }
+
+    // public List<Plant> getPlantList() {
+    // return plantList;
+    // }
 
     public List<PlantLocation> getPlantLocationList() {
         return plantLocationList;

@@ -47,12 +47,12 @@ public class PlantLocation {
         return square;
     }
 
-    public void setSquare(Square square) {
-        this.square = square;
-    }
-
     public Integer getSowWeek() {
         return sowWeek;
+    }
+
+    public void setSquare(Square square) {
+        this.square = square;
     }
 
     public void setSowWeek(Integer sowWeek) {
