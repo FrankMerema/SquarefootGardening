@@ -3,9 +3,9 @@ package com.squarefoot.gardening.domain;
 public class Square {
 
     private int raisedBedNumber;
-    // west - oost
+    // west -> east
     private int x;
-    // noord - zuid
+    // north -> south
     private int y;
 
     private Square() {
@@ -13,8 +13,8 @@ public class Square {
 
     public Square(int raisedBedNumber, int x, int y) {
         this.raisedBedNumber = raisedBedNumber;
-        this.x = x; // west richting oost
-        this.y = y; // noord richting zuid
+        this.x = x; // west -> east
+        this.y = y; // north -> south
     }
 
     @Override

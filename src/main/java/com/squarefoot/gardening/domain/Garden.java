@@ -1,6 +1,7 @@
 package com.squarefoot.gardening.domain;
 
-import org.eclipse.collections.impl.list.Interval;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonProperty.Access;
 import org.optaplanner.core.api.domain.solution.PlanningEntityCollectionProperty;
 import org.optaplanner.core.api.domain.solution.PlanningScore;
 import org.optaplanner.core.api.domain.solution.PlanningSolution;
@@ -9,9 +10,8 @@ import org.optaplanner.core.api.domain.valuerange.ValueRangeProvider;
 import org.optaplanner.core.api.score.buildin.hardsoft.HardSoftScore;
 
 import java.util.List;
-
-import com.fasterxml.jackson.annotation.JsonProperty;
-import com.fasterxml.jackson.annotation.JsonProperty.Access;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 @PlanningSolution
 public class Garden {
@@ -19,16 +19,12 @@ public class Garden {
     @JsonProperty(access = Access.WRITE_ONLY)
     @ValueRangeProvider(id = "weekRange")
     @ProblemFactCollectionProperty
-    private List<Integer> weekList;
+    private final List<Integer> weekList;
 
     @JsonProperty(access = Access.WRITE_ONLY)
     @ValueRangeProvider(id = "squareRange")
     @ProblemFactCollectionProperty
     private List<Square> squareList;
-
-    // @ValueRangeProvider(id = "plantRange")
-    // @ProblemFactCollectionProperty
-    // private List<Plant> plantList;
 
     @PlanningEntityCollectionProperty
     private List<PlantLocation> plantLocationList;
@@ -37,15 +33,15 @@ public class Garden {
     private HardSoftScore score;
 
     private Garden() {
-        this.weekList = Interval.oneTo(52).toList();
+        this.weekList = IntStream.rangeClosed(1, 52)
+                .boxed().collect(Collectors.toList());
     }
 
     public Garden(List<Square> squareList,
-            // List<Plant> plantList,
-            List<PlantLocation> plantLocationList) {
-        this.weekList = Interval.oneTo(52).toList();
+                  List<PlantLocation> plantLocationList) {
+        this.weekList = IntStream.rangeClosed(1, 52)
+                .boxed().collect(Collectors.toList());
         this.squareList = squareList;
-        // this.plantList = plantList;
         this.plantLocationList = plantLocationList;
     }
 
@@ -60,10 +56,6 @@ public class Garden {
     public List<Square> getSquareList() {
         return squareList;
     }
-
-    // public List<Plant> getPlantList() {
-    // return plantList;
-    // }
 
     public List<PlantLocation> getPlantLocationList() {
         return plantLocationList;
